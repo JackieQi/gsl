@@ -1,0 +1,1473 @@
+﻿生成启动时间为 2023/8/14 20:37:08。
+     1>项目“C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\gsl.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“gsl.dir\Debug\gsl.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Building Custom Rule C:/Users/mochangming/gsl/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\mochangming\gsl\build\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\\" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\utils\placeholder.c ..\sys\prec.c ..\sys\hypot.c ..\sys\log1p.c ..\sys\expm1.c ..\sys\coerce.c ..\sys\invhyp.c ..\sys\infnan.c ..\sys\fdiv.c ..\sys\fcmp.c ..\sys\ldfrexp.c ..\test\results.c ..\err\error.c ..\err\stream.c ..\err\message.c ..\err\strerror.c ..\bst\avl.c ..\bst\bst.c ..\bst\rb.c ..\bst\trav.c ..\complex\math.c ..\cheb\integ.c ..\block\block.c ..\vector\vector.c ..\vector\reim.c ..\vector\subvector.c ..\matrix\matrix.c ..\matrix\rowcol.c ..\matrix\submatrix.c ..\permutation\permutation.c ..\permutation\permute.c ..\permutation\canonical.c ..\combination\combination.c ..\multiset\multiset.c ..\sort\sortind.c ..\sort\sortvec.c ..\sort\sortvecind.c ..\sort\subset.c ..\sort\subsetind.c "..\ieee-utils\print.c" "..\ieee-utils\make_rep.c" "..\ieee-utils\env.c" "..\ieee-utils\fp.c" "..\ieee-utils\read.c" ..\blas\blas.c ..\linalg\cod.c ..\linalg\condest.c ..\linalg\invtri.c ..\linalg\invtri_complex.c ..\linalg\multiply.c ..\linalg\tridiag.c ..\linalg\lu.c ..\linalg\lu_band.c ..\linalg\luc.c ..\linalg\hh.c ..\linalg\ql.c ..\linalg\qr_band.c ..\linalg\qrc.c ..\linalg\qrpt.c ..\linalg\qr_ud.c ..\linalg\qr_ur.c ..\linalg\qr_uu.c ..\linalg\qr_uz.c ..\linalg\rqr.c ..\linalg\rqrc.c ..\linalg\lq.c ..\linalg\ptlq.c ..\linalg\householder.c ..\linalg\householdercomplex.c ..\linalg\hessenberg.c ..\linalg\hesstri.c ..\linalg\choleskyc.c ..\linalg\pcholesky.c ..\linalg\cholesky_band.c ..\linalg\ldlt.c ..\linalg\ldlt_band.c ..\linalg\symmtd.c ..\linalg\hermtd.c ..\linalg\bidiag.c ..\linalg\balance.c ..\linalg\balancemat.c ..\linalg\trimult.c ..\linalg\trimult_complex.c ..\eigen\symm.c ..\eigen\symmv.c ..\eigen\nonsymm.c ..\eigen\nonsymmv.c ..\eigen\herm.c ..\eigen\hermv.c ..\eigen\gensymm.c ..\eigen\gensymmv.c ..\eigen\genherm.c ..\eigen\genhermv.c ..\eigen\gen.c ..\eigen\genv.c ..\eigen\francis.c ..\eigen\schur.c ..\specfunc\airy.c ..\specfunc\airy_der.c ..\specfunc\airy_zero.c ..\specfunc\atanint.c ..\specfunc\bessel.c ..\specfunc\bessel_I0.c ..\specfunc\bessel_I1.c ..\specfunc\bessel_In.c ..\specfunc\bessel_Inu.c ..\specfunc\bessel_J0.c ..\specfunc\bessel_J1.c ..\specfunc\bessel_Jn.c ..\specfunc\bessel_Jnu.c ..\specfunc\bessel_K0.c ..\specfunc\bessel_K1.c ..\specfunc\bessel_Kn.c ..\specfunc\bessel_Knu.c ..\specfunc\bessel_Y0.c ..\specfunc\bessel_Y1.c ..\specfunc\bessel_Yn.c ..\specfunc\bessel_Ynu.c ..\specfunc\bessel_amp_phase.c ..\specfunc\bessel_i.c ..\specfunc\bessel_j.c ..\specfunc\bessel_k.c ..\specfunc\bessel_olver.c ..\specfunc\bessel_temme.c ..\specfunc\bessel_y.c ..\specfunc\bessel_zero.c ..\specfunc\bessel_sequence.c ..\specfunc\beta_inc.c ..\specfunc\clausen.c ..\specfunc\coulomb.c ..\specfunc\coupling.c ..\specfunc\coulomb_bound.c ..\specfunc\dawson.c ..\specfunc\debye.c ..\specfunc\dilog.c ..\specfunc\elementary.c ..\specfunc\ellint.c ..\specfunc\elljac.c ..\specfunc\erfc.c ..\specfunc\exp.c ..\specfunc\expint.c ..\specfunc\expint3.c ..\specfunc\fermi_dirac.c ..\specfunc\gamma_inc.c ..\specfunc\hyperg_0F1.c ..\specfunc\hyperg_2F0.c ..\specfunc\hyperg_1F1.c ..\specfunc\hyperg_2F1.c ..\specfunc\hyperg_U.c ..\specfunc\lambert.c ..\specfunc\legendre_H3d.c ..\specfunc\legendre_P.c ..\specfunc\legendre_Qn.c ..\specfunc\legendre_con.c ..\specfunc\legendre_poly.c ..\specfunc\log.c ..\specfunc\mathieu_angfunc.c ..\specfunc\mathieu_charv.c ..\specfunc\mathieu_coeff.c ..\specfunc\mathieu_radfunc.c ..\specfunc\mathieu_workspace.c ..\specfunc\poch.c ..\specfunc\psi.c ..\specfunc\result.c ..\specfunc\shint.c ..\specfunc\sincos_pi.c ..\specfunc\sinint.c ..\specfunc\synchrotron.c ..\specfunc\transport.c ..\specfunc\trig.c ..\specfunc\zeta.c ..\dht\dht.c ..\qrng\qrng.c "..\qrng\niederreiter-2.c" ..\qrng\sobol.c ..\qrng\halton.c ..\qrng\reversehalton.c ..\rng\borosh13.c ..\rng\cmrg.c ..\rng\coveyou.c ..\rng\default.c ..\rng\fishman18.c ..\rng\fishman20.c ..\rng\fishman2x.c ..\rng\gfsr4.c ..\rng\knuthran2.c ..\rng\knuthran.c ..\rng\knuthran2002.c ..\rng\lecuyer21.c ..\rng\minstd.c ..\rng\mrg.c ..\rng\mt.c ..\rng\r250.c ..\rng\ran0.c ..\rng\ran1.c ..\rng\ran2.c ..\rng\ran3.c ..\rng\rand48.c ..\rng\rand.c ..\rng\random.c ..\rng\randu.c ..\rng\ranf.c ..\rng\ranlux.c ..\rng\ranlxd.c ..\rng\ranlxs.c ..\rng\ranmar.c ..\rng\rng.c ..\rng\slatec.c ..\rng\taus.c ..\rng\taus113.c ..\rng\transputer.c ..\rng\tt.c ..\rng\types.c ..\rng\uni32.c ..\rng\uni.c ..\rng\vax.c ..\rng\waterman14.c ..\rng\zuf.c ..\randist\bernoulli.c ..\randist\bigauss.c ..\randist\dirichlet.c ..\randist\discrete.c ..\randist\erlang.c ..\randist\gausszig.c ..\randist\gausstail.c ..\randist\gumbel.c ..\randist\levy.c ..\randist\logarithmic.c ..\randist\multinomial.c ..\randist\mvgauss.c ..\randist\shuffle.c ..\randist\sphere.c ..\randist\landau.c ..\randist\binomial_tpe.c ..\randist\wishart.c ..\fft\dft.c ..\fft\fft.c ..\poly\dd.c ..\poly\solve_quadratic.c ..\poly\solve_cubic.c ..\poly\zsolve_quadratic.c ..\poly\zsolve_cubic.c ..\poly\zsolve.c ..\poly\zsolve_init.c ..\multifit\gcv.c ..\multifit\multilinear.c ..\multifit\multiwlinear.c ..\multifit\work.c ..\multifit\lmniel.c ..\multifit\lmder.c ..\multifit\fdfridge.c ..\multifit\gradient.c ..\multifit\multirobust.c ..\multifit\robust_wfun.c ..\multifit\multireg.c ..\multifit_nlinear\fdfvv.c ..\multilarge\multilarge.c ..\multilarge\normal.c ..\multilarge\tsqr.c ..\multilarge_nlinear\cgst.c ..\multilarge_nlinear\dummy.c ..\filter\gaussian.c ..\filter\impulse.c ..\filter\rmedian.c ..\movstat\alloc.c ..\movstat\apply.c ..\movstat\fill.c ..\movstat\funcacc.c ..\movstat\madacc.c ..\movstat\medacc.c ..\movstat\mmacc.c ..\movstat\movmad.c ..\movstat\movmean.c ..\movstat\movmedian.c ..\movstat\movminmax.c ..\movstat\movsum.c ..\movstat\movSn.c ..\movstat\movQn.c ..\movstat\movqqr.c ..\movstat\movvariance.c ..\movstat\mvacc.c ..\movstat\qnacc.c ..\movstat\qqracc.c ..\movstat\snacc.c ..\movstat\sumacc.c ..\rstat\rstat.c ..\rstat\rquantile.c ..\statistics\mean.c ..\statistics\variance.c ..\statistics\absdev.c ..\statistics\skew.c ..\statistics\kurtosis.c ..\statistics\lag1.c ..\statistics\p_variance.c ..\statistics\ttest.c ..\statistics\mad.c ..\statistics\covariance.c ..\statistics\quantiles.c ..\statistics\select.c ..\statistics\Sn.c ..\statistics\Qn.c ..\statistics\gastwirth.c ..\statistics\trmean.c ..\statistics\wmean.c ..\statistics\wvariance.c ..\statistics\wabsdev.c ..\statistics\wskew.c ..\statistics\wkurtosis.c ..\siman\siman.c ..\sum\levin_u.c ..\sum\levin_utrunc.c ..\sum\work_u.c ..\sum\work_utrunc.c ..\integration\qk15.c ..\integration\qk21.c ..\integration\qk31.c ..\integration\qk41.c ..\integration\qk51.c ..\integration\qk61.c ..\integration\qk.c ..\integration\qng.c ..\integration\qag.c ..\integration\qags.c ..\integration\qagp.c ..\integration\workspace.c ..\integration\qcheb.c ..\integration\qawc.c ..\integration\qmomo.c ..\integration\qaws.c ..\integration\qmomof.c ..\integration\qawo.c ..\integration\qawf.c ..\integration\glfixed.c ..\integration\cquad.c ..\integration\fixed.c ..\integration\chebyshev.c ..\integration\chebyshev2.c ..\integration\legendre.c ..\integration\rational.c ..\integration\romberg.c ..\interpolation\accel.c ..\interpolation\akima.c ..\interpolation\cspline.c ..\interpolation\interp.c ..\interpolation\spline.c ..\interpolation\poly.c ..\interpolation\steffen.c ..\interpolation\interp2d.c ..\interpolation\bilinear.c ..\interpolation\bicubic.c ..\interpolation\spline2d.c ..\histogram\add.c ..\histogram\get.c ..\histogram\params.c ..\histogram\reset.c ..\histogram\pdf.c ..\histogram\add2d.c ..\histogram\get2d.c ..\histogram\init2d.c ..\histogram\params2d.c ..\histogram\reset2d.c ..\histogram\file2d.c ..\histogram\pdf2d.c ..\histogram\calloc_range.c ..\histogram\calloc_range2d.c ..\histogram\copy2d.c ..\histogram\maxval.c ..\histogram\maxval2d.c ..\histogram\oper2d.c ..\histogram\stat.c ..\histogram\stat2d.c "..\ode-initval\rk2simp.c" "..\ode-initval\gear1.c" "..\ode-initval\gear2.c" "..\ode-initval2\rk1imp.c" "..\ode-initval2\msadams.c" "..\ode-initval2\msbdf.c" "..\ode-initval2\driver.c" ..\roots\bisection.c ..\roots\falsepos.c ..\roots\secant.c ..\roots\steffenson.c ..\multiroots\gnewton.c ..\multiroots\dnewton.c ..\multiroots\broyden.c ..\multiroots\hybrid.c ..\multiroots\hybridj.c ..\min\golden.c ..\min\bracketing.c ..\min\quad_golden.c ..\multimin\fdfminimizer.c ..\multimin\steepest_descent.c ..\multimin\conjugate_fr.c ..\multimin\conjugate_pr.c ..\multimin\vector_bfgs.c ..\multimin\vector_bfgs2.c ..\multimin\fminimizer.c ..\multimin\simplex.c ..\multimin\simplex2.c ..\monte\miser.c ..\monte\plain.c ..\monte\vegas.c ..\ntuple\ntuple.c ..\cdf\betainv.c ..\cdf\cauchyinv.c ..\cdf\chisqinv.c ..\cdf\exponentialinv.c ..\cdf\fdistinv.c ..\cdf\flatinv.c ..\cdf\gammainv.c ..\cdf\gaussinv.c ..\cdf\gumbel1.c ..\cdf\gumbel1inv.c ..\cdf\gumbel2.c ..\cdf\gumbel2inv.c ..\cdf\laplaceinv.c ..\cdf\logisticinv.c ..\cdf\lognormalinv.c ..\cdf\paretoinv.c ..\cdf\rayleighinv.c ..\cdf\tdistinv.c ..\cdf\weibullinv.c ..\cdf\hypergeometric.c ..\wavelet\dwt.c ..\wavelet\wavelet.c ..\wavelet\daubechies.c ..\wavelet\haar.c ..\bspline\greville.c ..\spblas\spdgemm.c ..\spblas\spdgemv.c ..\spmatrix\compress.c ..\spmatrix\util.c ..\splinalg\itersolve.c ..\splinalg\gmres.c ..\version.c
+         placeholder.c
+         prec.c
+         hypot.c
+         log1p.c
+         expm1.c
+         coerce.c
+         invhyp.c
+         infnan.c
+         fdiv.c
+         fcmp.c
+         ldfrexp.c
+         results.c
+         error.c
+         stream.c
+         message.c
+         strerror.c
+         avl.c
+         bst.c
+         rb.c
+         trav.c
+         math.c
+         integ.c
+         block.c
+         vector.c
+         reim.c
+         subvector.c
+         matrix.c
+         rowcol.c
+         submatrix.c
+         permutation.c
+         permute.c
+         canonical.c
+         combination.c
+         multiset.c
+         sortind.c
+         sortvec.c
+         sortvecind.c
+         subset.c
+         subsetind.c
+         print.c
+         make_rep.c
+         env.c
+         fp.c
+         read.c
+         blas.c
+         cod.c
+         condest.c
+         invtri.c
+         invtri_complex.c
+         multiply.c
+         tridiag.c
+         lu.c
+         lu_band.c
+         luc.c
+         hh.c
+         ql.c
+         qr_band.c
+         qrc.c
+         qrpt.c
+         qr_ud.c
+         qr_ur.c
+         qr_uu.c
+         qr_uz.c
+         rqr.c
+         rqrc.c
+         lq.c
+         ptlq.c
+         householder.c
+         householdercomplex.c
+         hessenberg.c
+         hesstri.c
+         choleskyc.c
+         pcholesky.c
+         cholesky_band.c
+         ldlt.c
+         ldlt_band.c
+         symmtd.c
+         hermtd.c
+         bidiag.c
+         balance.c
+         balancemat.c
+         trimult.c
+         trimult_complex.c
+         symm.c
+         symmv.c
+         nonsymm.c
+         nonsymmv.c
+         herm.c
+         hermv.c
+         gensymm.c
+         gensymmv.c
+         genherm.c
+         genhermv.c
+         gen.c
+         genv.c
+         francis.c
+         schur.c
+         airy.c
+         airy_der.c
+         airy_zero.c
+         atanint.c
+         bessel.c
+         bessel_I0.c
+         bessel_I1.c
+         bessel_In.c
+         bessel_Inu.c
+         bessel_J0.c
+         bessel_J1.c
+         bessel_Jn.c
+         bessel_Jnu.c
+         bessel_K0.c
+         bessel_K1.c
+         bessel_Kn.c
+         bessel_Knu.c
+         bessel_Y0.c
+         bessel_Y1.c
+         bessel_Yn.c
+         bessel_Ynu.c
+         bessel_amp_phase.c
+         bessel_i.c
+         bessel_j.c
+         bessel_k.c
+         bessel_olver.c
+         bessel_temme.c
+         bessel_y.c
+         bessel_zero.c
+         bessel_sequence.c
+         beta_inc.c
+         clausen.c
+         coulomb.c
+         coupling.c
+         coulomb_bound.c
+         dawson.c
+         debye.c
+         dilog.c
+         elementary.c
+         ellint.c
+         elljac.c
+         erfc.c
+         exp.c
+         expint.c
+         expint3.c
+         fermi_dirac.c
+         gamma_inc.c
+         hyperg_0F1.c
+         hyperg_2F0.c
+         hyperg_1F1.c
+         hyperg_2F1.c
+         hyperg_U.c
+         lambert.c
+         legendre_H3d.c
+         legendre_P.c
+         legendre_Qn.c
+         legendre_con.c
+         legendre_poly.c
+         log.c
+         mathieu_angfunc.c
+         mathieu_charv.c
+         mathieu_coeff.c
+         mathieu_radfunc.c
+         mathieu_workspace.c
+         poch.c
+         psi.c
+         result.c
+         shint.c
+         sincos_pi.c
+         sinint.c
+         synchrotron.c
+         transport.c
+         trig.c
+         zeta.c
+         dht.c
+         qrng.c
+         niederreiter-2.c
+         sobol.c
+         halton.c
+         reversehalton.c
+         borosh13.c
+         cmrg.c
+         coveyou.c
+         default.c
+         fishman18.c
+         fishman20.c
+         fishman2x.c
+         gfsr4.c
+         knuthran2.c
+         knuthran.c
+         knuthran2002.c
+         lecuyer21.c
+         minstd.c
+         mrg.c
+         mt.c
+         r250.c
+         ran0.c
+         ran1.c
+         ran2.c
+         ran3.c
+         rand48.c
+         rand.c
+         random.c
+         randu.c
+         ranf.c
+         ranlux.c
+         ranlxd.c
+         ranlxs.c
+         ranmar.c
+         rng.c
+         slatec.c
+         taus.c
+         taus113.c
+         transputer.c
+         tt.c
+         types.c
+         uni32.c
+         uni.c
+         vax.c
+         waterman14.c
+         zuf.c
+         bernoulli.c
+         bigauss.c
+         dirichlet.c
+         discrete.c
+         erlang.c
+         gausszig.c
+         gausstail.c
+         gumbel.c
+         levy.c
+         logarithmic.c
+         multinomial.c
+         mvgauss.c
+         shuffle.c
+         sphere.c
+         landau.c
+         binomial_tpe.c
+         wishart.c
+         dft.c
+         fft.c
+         dd.c
+         solve_quadratic.c
+         solve_cubic.c
+         zsolve_quadratic.c
+         zsolve_cubic.c
+         zsolve.c
+         zsolve_init.c
+         gcv.c
+         multilinear.c
+         multiwlinear.c
+         work.c
+         lmniel.c
+         lmder.c
+         fdfridge.c
+         gradient.c
+         multirobust.c
+         robust_wfun.c
+         multireg.c
+         fdfvv.c
+         multilarge.c
+         normal.c
+         tsqr.c
+         cgst.c
+         dummy.c
+         gaussian.c
+         impulse.c
+         rmedian.c
+         alloc.c
+         apply.c
+         fill.c
+         funcacc.c
+         madacc.c
+         medacc.c
+         mmacc.c
+         movmad.c
+         movmean.c
+         movmedian.c
+         movminmax.c
+         movsum.c
+         movSn.c
+         movQn.c
+         movqqr.c
+         movvariance.c
+         mvacc.c
+         qnacc.c
+         qqracc.c
+         snacc.c
+         sumacc.c
+         rstat.c
+         rquantile.c
+         mean.c
+         variance.c
+         absdev.c
+         skew.c
+         kurtosis.c
+         lag1.c
+         p_variance.c
+         ttest.c
+         mad.c
+         covariance.c
+         quantiles.c
+         select.c
+         Sn.c
+         Qn.c
+         gastwirth.c
+         trmean.c
+         wmean.c
+         wvariance.c
+         wabsdev.c
+         wskew.c
+         wkurtosis.c
+         siman.c
+         levin_u.c
+         levin_utrunc.c
+         work_u.c
+         work_utrunc.c
+         qk15.c
+         qk21.c
+         qk31.c
+         qk41.c
+         qk51.c
+         qk61.c
+         qk.c
+         qng.c
+         qag.c
+         qags.c
+         qagp.c
+         workspace.c
+         qcheb.c
+         qawc.c
+         qmomo.c
+         qaws.c
+         qmomof.c
+         qawo.c
+         qawf.c
+         glfixed.c
+         cquad.c
+         fixed.c
+         chebyshev.c
+         chebyshev2.c
+         legendre.c
+         rational.c
+         romberg.c
+         accel.c
+         akima.c
+         cspline.c
+         interp.c
+         spline.c
+         poly.c
+         steffen.c
+         interp2d.c
+         bilinear.c
+         bicubic.c
+         spline2d.c
+         add.c
+         get.c
+         params.c
+         reset.c
+         pdf.c
+         add2d.c
+         get2d.c
+         init2d.c
+         params2d.c
+         reset2d.c
+         file2d.c
+         pdf2d.c
+         calloc_range.c
+         calloc_range2d.c
+         copy2d.c
+         maxval.c
+         maxval2d.c
+         oper2d.c
+         stat.c
+         stat2d.c
+         rk2simp.c
+         gear1.c
+         gear2.c
+         rk1imp.c
+         msadams.c
+         msbdf.c
+         driver.c
+         bisection.c
+         falsepos.c
+         secant.c
+         steffenson.c
+         gnewton.c
+         dnewton.c
+         broyden.c
+         hybrid.c
+         hybridj.c
+         golden.c
+         bracketing.c
+         quad_golden.c
+         fdfminimizer.c
+         steepest_descent.c
+         conjugate_fr.c
+         conjugate_pr.c
+         vector_bfgs.c
+         vector_bfgs2.c
+         fminimizer.c
+         simplex.c
+         simplex2.c
+         miser.c
+         plain.c
+         vegas.c
+         ntuple.c
+         betainv.c
+         cauchyinv.c
+         chisqinv.c
+         exponentialinv.c
+         fdistinv.c
+         flatinv.c
+         gammainv.c
+         gaussinv.c
+         gumbel1.c
+         gumbel1inv.c
+         gumbel2.c
+         gumbel2inv.c
+         laplaceinv.c
+         logisticinv.c
+         lognormalinv.c
+         paretoinv.c
+         rayleighinv.c
+         tdistinv.c
+         weibullinv.c
+         hypergeometric.c
+         dwt.c
+         wavelet.c
+         daubechies.c
+         haar.c
+         greville.c
+         spdgemm.c
+         spdgemv.c
+         compress.c
+         util.c
+         itersolve.c
+         gmres.c
+         version.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/sys/minmax.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\sys\minmax.c
+         minmax.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/sys/pow_int.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\sys\pow_int.c
+         pow_int.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/complex/inline.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\complex\inline.c
+         inline.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/cheb/deriv.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\cheb\deriv.c
+         deriv.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/cheb/eval.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\cheb\eval.c
+         eval.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/cheb/init.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\cheb\init.c
+         init.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/block/init.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\block\init.c
+         init.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/block/file.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\block\file.c
+         file.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/vector/init.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\vector\init.c
+         init.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/vector/file.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\vector\file.c
+         file.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/vector/copy.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\vector\copy.c
+         copy.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/vector/swap.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\vector\swap.c
+         swap.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/vector/prop.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\vector\prop.c
+         prop.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/vector/minmax.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\vector\minmax.c
+         minmax.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/vector/oper.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\vector\oper.c
+         oper.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/vector/view.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\vector\view.c
+         view.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/matrix/init.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\matrix\init.c
+         init.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/matrix/file.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\matrix\file.c
+         file.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/matrix/swap.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\matrix\swap.c
+         swap.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/matrix/copy.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\matrix\copy.c
+         copy.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/matrix/minmax.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\matrix\minmax.c
+         minmax.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/matrix/prop.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\matrix\prop.c
+         prop.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/matrix/oper.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\matrix\oper.c
+         oper.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/matrix/getset.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\matrix\getset.c
+         getset.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/matrix/view.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\matrix\view.c
+         view.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/permutation/init.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\permutation\init.c
+         init.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/permutation/file.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\permutation\file.c
+         file.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/permutation/inline.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\permutation\inline.c
+         inline.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/combination/init.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\combination\init.c
+         init.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/combination/file.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\combination\file.c
+         file.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/combination/inline.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\combination\inline.c
+         inline.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multiset/init.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multiset\init.c
+         init.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multiset/file.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multiset\file.c
+         file.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multiset/inline.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multiset\inline.c
+         inline.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/sort/sort.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\sort\sort.c
+         sort.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/linalg/exponential.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\linalg\exponential.c
+         exponential.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/linalg/qr.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\linalg\qr.c
+         qr.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/linalg/svd.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\linalg\svd.c
+         svd.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/linalg/cholesky.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\linalg\cholesky.c
+         cholesky.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/linalg/mcholesky.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\linalg\mcholesky.c
+         mcholesky.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/linalg/inline.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\linalg\inline.c
+         inline.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/eigen/jacobi.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\eigen\jacobi.c
+         jacobi.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/eigen/sort.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\eigen\sort.c
+         sort.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/specfunc/beta.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\specfunc\beta.c
+         beta.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/specfunc/gegenbauer.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\specfunc\gegenbauer.c
+         gegenbauer.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/specfunc/gamma.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\specfunc\gamma.c
+         gamma.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/specfunc/hermite.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\specfunc\hermite.c
+         hermite.c
+     1>..\specfunc\hermite.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>..\specfunc\hermite.c(1048): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/specfunc/hyperg.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\specfunc\hyperg.c
+         hyperg.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/specfunc/inline.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\specfunc\inline.c
+         inline.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/specfunc/laguerre.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\specfunc\laguerre.c
+         laguerre.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/specfunc/pow_int.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\specfunc\pow_int.c
+         pow_int.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/qrng/inline.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\qrng\inline.c
+         inline.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/rng/file.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\rng\file.c
+         file.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/rng/inline.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\rng\inline.c
+         inline.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/randist/beta.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\randist\beta.c
+         beta.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/randist/binomial.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\randist\binomial.c
+         binomial.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/randist/cauchy.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\randist\cauchy.c
+         cauchy.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/randist/chisq.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\randist\chisq.c
+         chisq.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/randist/exponential.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\randist\exponential.c
+         exponential.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/randist/exppow.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\randist\exppow.c
+         exppow.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/randist/fdist.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\randist\fdist.c
+         fdist.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/randist/flat.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\randist\flat.c
+         flat.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/randist/gamma.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\randist\gamma.c
+         gamma.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/randist/gauss.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\randist\gauss.c
+         gauss.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/randist/geometric.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\randist\geometric.c
+         geometric.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/randist/hyperg.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\randist\hyperg.c
+         hyperg.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/randist/laplace.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\randist\laplace.c
+         laplace.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/randist/logistic.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\randist\logistic.c
+         logistic.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/randist/lognormal.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\randist\lognormal.c
+         lognormal.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/randist/nbinomial.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\randist\nbinomial.c
+         nbinomial.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/randist/pareto.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\randist\pareto.c
+         pareto.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/randist/pascal.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\randist\pascal.c
+         pascal.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/randist/poisson.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\randist\poisson.c
+         poisson.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/randist/rayleigh.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\randist\rayleigh.c
+         rayleigh.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/randist/tdist.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\randist\tdist.c
+         tdist.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/randist/weibull.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\randist\weibull.c
+         weibull.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/poly/eval.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\poly\eval.c
+         eval.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/poly/deriv.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\poly\deriv.c
+         deriv.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/fit/linear.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\fit\linear.c
+         linear.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multifit/fsolver.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multifit\fsolver.c
+         fsolver.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multifit/fdfsolver.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multifit\fdfsolver.c
+         fdfsolver.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multifit/fdjac.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multifit\fdjac.c
+         fdjac.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multifit/convergence.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multifit\convergence.c
+         convergence.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multifit/covar.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multifit\covar.c
+         covar.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multifit_nlinear/cholesky.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multifit_nlinear\cholesky.c
+         cholesky.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multifit_nlinear/convergence.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multifit_nlinear\convergence.c
+         convergence.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multifit_nlinear/covar.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multifit_nlinear\covar.c
+         covar.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multifit_nlinear/dogleg.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multifit_nlinear\dogleg.c
+         dogleg.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multifit_nlinear/fdf.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multifit_nlinear\fdf.c
+         fdf.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multifit_nlinear/fdjac.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multifit_nlinear\fdjac.c
+         fdjac.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multifit_nlinear/lm.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multifit_nlinear\lm.c
+         lm.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multifit_nlinear/mcholesky.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multifit_nlinear\mcholesky.c
+         mcholesky.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multifit_nlinear/qr.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multifit_nlinear\qr.c
+         qr.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multifit_nlinear/scaling.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multifit_nlinear\scaling.c
+         scaling.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multifit_nlinear/subspace2D.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multifit_nlinear\subspace2D.c
+         subspace2D.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multifit_nlinear/svd.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multifit_nlinear\svd.c
+         svd.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multifit_nlinear/trust.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multifit_nlinear\trust.c
+         trust.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multilarge_nlinear/cholesky.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multilarge_nlinear\cholesky.c
+         cholesky.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multilarge_nlinear/convergence.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multilarge_nlinear\convergence.c
+         convergence.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multilarge_nlinear/dogleg.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multilarge_nlinear\dogleg.c
+         dogleg.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multilarge_nlinear/fdf.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multilarge_nlinear\fdf.c
+         fdf.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multilarge_nlinear/lm.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multilarge_nlinear\lm.c
+         lm.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multilarge_nlinear/mcholesky.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multilarge_nlinear\mcholesky.c
+         mcholesky.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multilarge_nlinear/scaling.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multilarge_nlinear\scaling.c
+         scaling.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multilarge_nlinear/subspace2D.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multilarge_nlinear\subspace2D.c
+         subspace2D.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multilarge_nlinear/trust.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multilarge_nlinear\trust.c
+         trust.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/filter/median.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\filter\median.c
+         median.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/statistics/minmax.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\statistics\minmax.c
+         minmax.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/statistics/median.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\statistics\median.c
+         median.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/integration/hermite.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\integration\hermite.c
+         hermite.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/integration/laguerre.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\integration\laguerre.c
+         laguerre.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/integration/gegenbauer.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\integration\gegenbauer.c
+         gegenbauer.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/integration/jacobi.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\integration\jacobi.c
+         jacobi.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/integration/exponential.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\integration\exponential.c
+         exponential.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/interpolation/linear.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\interpolation\linear.c
+         linear.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/interpolation/inline.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\interpolation\inline.c
+         inline.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/histogram/init.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\histogram\init.c
+         init.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/histogram/file.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\histogram\file.c
+         file.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/histogram/copy.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\histogram\copy.c
+         copy.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/histogram/oper.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\histogram\oper.c
+         oper.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/ode-initval/control.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt "..\ode-initval\control.c"
+         control.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/ode-initval/cstd.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt "..\ode-initval\cstd.c"
+         cstd.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/ode-initval/cscal.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt "..\ode-initval\cscal.c"
+         cscal.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/ode-initval/evolve.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt "..\ode-initval\evolve.c"
+         evolve.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/ode-initval/step.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt "..\ode-initval\step.c"
+         step.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/ode-initval/rk2.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt "..\ode-initval\rk2.c"
+         rk2.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/ode-initval/rk2imp.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt "..\ode-initval\rk2imp.c"
+         rk2imp.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/ode-initval/rk4.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt "..\ode-initval\rk4.c"
+         rk4.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/ode-initval/rk4imp.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt "..\ode-initval\rk4imp.c"
+         rk4imp.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/ode-initval/rkf45.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt "..\ode-initval\rkf45.c"
+         rkf45.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/ode-initval/rk8pd.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt "..\ode-initval\rk8pd.c"
+         rk8pd.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/ode-initval/rkck.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt "..\ode-initval\rkck.c"
+         rkck.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/ode-initval/bsimp.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt "..\ode-initval\bsimp.c"
+         bsimp.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/ode-initval2/control.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt "..\ode-initval2\control.c"
+         control.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/ode-initval2/cstd.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt "..\ode-initval2\cstd.c"
+         cstd.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/ode-initval2/cscal.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt "..\ode-initval2\cscal.c"
+         cscal.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/ode-initval2/evolve.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt "..\ode-initval2\evolve.c"
+         evolve.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/ode-initval2/step.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt "..\ode-initval2\step.c"
+         step.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/ode-initval2/rk2.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt "..\ode-initval2\rk2.c"
+         rk2.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/ode-initval2/rk2imp.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt "..\ode-initval2\rk2imp.c"
+         rk2imp.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/ode-initval2/rk4.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt "..\ode-initval2\rk4.c"
+         rk4.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/ode-initval2/rk4imp.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt "..\ode-initval2\rk4imp.c"
+         rk4imp.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/ode-initval2/rkf45.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt "..\ode-initval2\rkf45.c"
+         rkf45.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/ode-initval2/rk8pd.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt "..\ode-initval2\rk8pd.c"
+         rk8pd.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/ode-initval2/rkck.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt "..\ode-initval2\rkck.c"
+         rkck.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/ode-initval2/bsimp.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt "..\ode-initval2\bsimp.c"
+         bsimp.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/roots/brent.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\roots\brent.c
+         brent.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/roots/newton.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\roots\newton.c
+         newton.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/roots/convergence.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\roots\convergence.c
+         convergence.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/roots/fsolver.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\roots\fsolver.c
+         fsolver.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/roots/fdfsolver.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\roots\fdfsolver.c
+         fdfsolver.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multiroots/fdjac.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multiroots\fdjac.c
+         fdjac.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multiroots/fsolver.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multiroots\fsolver.c
+         fsolver.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multiroots/fdfsolver.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multiroots\fdfsolver.c
+         fdfsolver.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multiroots/convergence.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multiroots\convergence.c
+         convergence.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multiroots/newton.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multiroots\newton.c
+         newton.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/min/fsolver.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\min\fsolver.c
+         fsolver.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/min/brent.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\min\brent.c
+         brent.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/min/convergence.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\min\convergence.c
+         convergence.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multimin/convergence.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multimin\convergence.c
+         convergence.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/multimin/diff.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\multimin\diff.c
+         diff.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/diff/diff.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\diff\diff.c
+         diff.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/deriv/deriv.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\deriv\deriv.c
+         deriv.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/cdf/beta.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\cdf\beta.c
+         beta.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/cdf/cauchy.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\cdf\cauchy.c
+         cauchy.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/cdf/chisq.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\cdf\chisq.c
+         chisq.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/cdf/exponential.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\cdf\exponential.c
+         exponential.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/cdf/exppow.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\cdf\exppow.c
+         exppow.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/cdf/fdist.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\cdf\fdist.c
+         fdist.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/cdf/flat.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\cdf\flat.c
+         flat.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/cdf/gamma.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\cdf\gamma.c
+         gamma.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/cdf/gauss.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\cdf\gauss.c
+         gauss.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/cdf/laplace.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\cdf\laplace.c
+         laplace.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/cdf/logistic.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\cdf\logistic.c
+         logistic.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/cdf/lognormal.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\cdf\lognormal.c
+         lognormal.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/cdf/pareto.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\cdf\pareto.c
+         pareto.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/cdf/rayleigh.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\cdf\rayleigh.c
+         rayleigh.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/cdf/tdist.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\cdf\tdist.c
+         tdist.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/cdf/weibull.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\cdf\weibull.c
+         weibull.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/cdf/binomial.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\cdf\binomial.c
+         binomial.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/cdf/poisson.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\cdf\poisson.c
+         poisson.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/cdf/geometric.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\cdf\geometric.c
+         geometric.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/cdf/nbinomial.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\cdf\nbinomial.c
+         nbinomial.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/cdf/pascal.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\cdf\pascal.c
+         pascal.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/wavelet/bspline.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\wavelet\bspline.c
+         bspline.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/bspline/bspline.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\bspline\bspline.c
+         bspline.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/spmatrix/copy.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\spmatrix\copy.c
+         copy.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/spmatrix/file.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\spmatrix\file.c
+         file.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/spmatrix/getset.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\spmatrix\getset.c
+         getset.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/spmatrix/init.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\spmatrix\init.c
+         init.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/spmatrix/minmax.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\spmatrix\minmax.c
+         minmax.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/spmatrix/oper.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\spmatrix\oper.c
+         oper.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/spmatrix/prop.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\spmatrix\prop.c
+         prop.c
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\\" /I"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\..\\" /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D DLL_EXPORT /D HAVE_CONFIG_H /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"gsl.dir\Debug\/spmatrix/swap.c.obj" /Fd"gsl.dir\Debug\vc100.pdb" /Gd /TC /wd4018 /wd4028 /wd4056 /wd4101 /wd4244 /wd4267 /wd4334 /wd4477 /wd4700 /wd4723 /wd4756 /wd4996 /analyze- /errorReport:prompt ..\spmatrix\swap.c
+         swap.c
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\Debug\gsl.lib" /NOLOGO gsl.dir\Debug\placeholder.obj
+         gsl.dir\Debug\prec.obj
+         gsl.dir\Debug\hypot.obj
+         gsl.dir\Debug\log1p.obj
+         gsl.dir\Debug\expm1.obj
+         gsl.dir\Debug\coerce.obj
+         gsl.dir\Debug\invhyp.obj
+         gsl.dir\Debug\infnan.obj
+         gsl.dir\Debug\fdiv.obj
+         gsl.dir\Debug\fcmp.obj
+         gsl.dir\Debug\ldfrexp.obj
+         gsl.dir\Debug\results.obj
+         gsl.dir\Debug\error.obj
+         gsl.dir\Debug\stream.obj
+         gsl.dir\Debug\message.obj
+         gsl.dir\Debug\strerror.obj
+         gsl.dir\Debug\avl.obj
+         gsl.dir\Debug\bst.obj
+         gsl.dir\Debug\rb.obj
+         gsl.dir\Debug\trav.obj
+         gsl.dir\Debug\math.obj
+         gsl.dir\Debug\integ.obj
+         gsl.dir\Debug\block.obj
+         gsl.dir\Debug\vector.obj
+         gsl.dir\Debug\reim.obj
+         gsl.dir\Debug\subvector.obj
+         gsl.dir\Debug\matrix.obj
+         gsl.dir\Debug\rowcol.obj
+         gsl.dir\Debug\submatrix.obj
+         gsl.dir\Debug\permutation.obj
+         gsl.dir\Debug\permute.obj
+         gsl.dir\Debug\canonical.obj
+         gsl.dir\Debug\combination.obj
+         gsl.dir\Debug\multiset.obj
+         gsl.dir\Debug\sortind.obj
+         gsl.dir\Debug\sortvec.obj
+         gsl.dir\Debug\sortvecind.obj
+         gsl.dir\Debug\subset.obj
+         gsl.dir\Debug\subsetind.obj
+         gsl.dir\Debug\print.obj
+         gsl.dir\Debug\make_rep.obj
+         gsl.dir\Debug\env.obj
+         gsl.dir\Debug\fp.obj
+         gsl.dir\Debug\read.obj
+         gsl.dir\Debug\blas.obj
+         gsl.dir\Debug\cod.obj
+         gsl.dir\Debug\condest.obj
+         gsl.dir\Debug\invtri.obj
+         gsl.dir\Debug\invtri_complex.obj
+         gsl.dir\Debug\multiply.obj
+         gsl.dir\Debug\tridiag.obj
+         gsl.dir\Debug\lu.obj
+         gsl.dir\Debug\lu_band.obj
+         gsl.dir\Debug\luc.obj
+         gsl.dir\Debug\hh.obj
+         gsl.dir\Debug\ql.obj
+         gsl.dir\Debug\qr_band.obj
+         gsl.dir\Debug\qrc.obj
+         gsl.dir\Debug\qrpt.obj
+         gsl.dir\Debug\qr_ud.obj
+         gsl.dir\Debug\qr_ur.obj
+         gsl.dir\Debug\qr_uu.obj
+         gsl.dir\Debug\qr_uz.obj
+         gsl.dir\Debug\rqr.obj
+         gsl.dir\Debug\rqrc.obj
+         gsl.dir\Debug\lq.obj
+         gsl.dir\Debug\ptlq.obj
+         gsl.dir\Debug\householder.obj
+         gsl.dir\Debug\householdercomplex.obj
+         gsl.dir\Debug\hessenberg.obj
+         gsl.dir\Debug\hesstri.obj
+         gsl.dir\Debug\choleskyc.obj
+         gsl.dir\Debug\pcholesky.obj
+         gsl.dir\Debug\cholesky_band.obj
+         gsl.dir\Debug\ldlt.obj
+         gsl.dir\Debug\ldlt_band.obj
+         gsl.dir\Debug\symmtd.obj
+         gsl.dir\Debug\hermtd.obj
+         gsl.dir\Debug\bidiag.obj
+         gsl.dir\Debug\balance.obj
+         gsl.dir\Debug\balancemat.obj
+         gsl.dir\Debug\trimult.obj
+         gsl.dir\Debug\trimult_complex.obj
+         gsl.dir\Debug\symm.obj
+         gsl.dir\Debug\symmv.obj
+         gsl.dir\Debug\nonsymm.obj
+         gsl.dir\Debug\nonsymmv.obj
+         gsl.dir\Debug\herm.obj
+         gsl.dir\Debug\hermv.obj
+         gsl.dir\Debug\gensymm.obj
+         gsl.dir\Debug\gensymmv.obj
+         gsl.dir\Debug\genherm.obj
+         gsl.dir\Debug\genhermv.obj
+         gsl.dir\Debug\gen.obj
+         gsl.dir\Debug\genv.obj
+         gsl.dir\Debug\francis.obj
+         gsl.dir\Debug\schur.obj
+         gsl.dir\Debug\airy.obj
+         gsl.dir\Debug\airy_der.obj
+         gsl.dir\Debug\airy_zero.obj
+         gsl.dir\Debug\atanint.obj
+         gsl.dir\Debug\bessel.obj
+         gsl.dir\Debug\bessel_I0.obj
+         gsl.dir\Debug\bessel_I1.obj
+         gsl.dir\Debug\bessel_In.obj
+         gsl.dir\Debug\bessel_Inu.obj
+         gsl.dir\Debug\bessel_J0.obj
+         gsl.dir\Debug\bessel_J1.obj
+         gsl.dir\Debug\bessel_Jn.obj
+         gsl.dir\Debug\bessel_Jnu.obj
+         gsl.dir\Debug\bessel_K0.obj
+         gsl.dir\Debug\bessel_K1.obj
+         gsl.dir\Debug\bessel_Kn.obj
+         gsl.dir\Debug\bessel_Knu.obj
+         gsl.dir\Debug\bessel_Y0.obj
+         gsl.dir\Debug\bessel_Y1.obj
+         gsl.dir\Debug\bessel_Yn.obj
+         gsl.dir\Debug\bessel_Ynu.obj
+         gsl.dir\Debug\bessel_amp_phase.obj
+         gsl.dir\Debug\bessel_i.obj
+         gsl.dir\Debug\bessel_j.obj
+         gsl.dir\Debug\bessel_k.obj
+         gsl.dir\Debug\bessel_olver.obj
+         gsl.dir\Debug\bessel_temme.obj
+         gsl.dir\Debug\bessel_y.obj
+         gsl.dir\Debug\bessel_zero.obj
+         gsl.dir\Debug\bessel_sequence.obj
+         gsl.dir\Debug\beta_inc.obj
+         gsl.dir\Debug\clausen.obj
+         gsl.dir\Debug\coulomb.obj
+         gsl.dir\Debug\coupling.obj
+         gsl.dir\Debug\coulomb_bound.obj
+         gsl.dir\Debug\dawson.obj
+         gsl.dir\Debug\debye.obj
+         gsl.dir\Debug\dilog.obj
+         gsl.dir\Debug\elementary.obj
+         gsl.dir\Debug\ellint.obj
+         gsl.dir\Debug\elljac.obj
+         gsl.dir\Debug\erfc.obj
+         gsl.dir\Debug\exp.obj
+         gsl.dir\Debug\expint.obj
+         gsl.dir\Debug\expint3.obj
+         gsl.dir\Debug\fermi_dirac.obj
+         gsl.dir\Debug\gamma_inc.obj
+         gsl.dir\Debug\hyperg_0F1.obj
+         gsl.dir\Debug\hyperg_2F0.obj
+         gsl.dir\Debug\hyperg_1F1.obj
+         gsl.dir\Debug\hyperg_2F1.obj
+         gsl.dir\Debug\hyperg_U.obj
+         gsl.dir\Debug\lambert.obj
+         gsl.dir\Debug\legendre_H3d.obj
+         gsl.dir\Debug\legendre_P.obj
+         gsl.dir\Debug\legendre_Qn.obj
+         gsl.dir\Debug\legendre_con.obj
+         gsl.dir\Debug\legendre_poly.obj
+         gsl.dir\Debug\log.obj
+         gsl.dir\Debug\mathieu_angfunc.obj
+         gsl.dir\Debug\mathieu_charv.obj
+         gsl.dir\Debug\mathieu_coeff.obj
+         gsl.dir\Debug\mathieu_radfunc.obj
+         gsl.dir\Debug\mathieu_workspace.obj
+         gsl.dir\Debug\poch.obj
+         gsl.dir\Debug\psi.obj
+         gsl.dir\Debug\result.obj
+         gsl.dir\Debug\shint.obj
+         gsl.dir\Debug\sincos_pi.obj
+         gsl.dir\Debug\sinint.obj
+         gsl.dir\Debug\synchrotron.obj
+         gsl.dir\Debug\transport.obj
+         gsl.dir\Debug\trig.obj
+         gsl.dir\Debug\zeta.obj
+         gsl.dir\Debug\dht.obj
+         gsl.dir\Debug\qrng.obj
+         "gsl.dir\Debug\niederreiter-2.obj"
+         gsl.dir\Debug\sobol.obj
+         gsl.dir\Debug\halton.obj
+         gsl.dir\Debug\reversehalton.obj
+         gsl.dir\Debug\borosh13.obj
+         gsl.dir\Debug\cmrg.obj
+         gsl.dir\Debug\coveyou.obj
+         gsl.dir\Debug\default.obj
+         gsl.dir\Debug\fishman18.obj
+         gsl.dir\Debug\fishman20.obj
+         gsl.dir\Debug\fishman2x.obj
+         gsl.dir\Debug\gfsr4.obj
+         gsl.dir\Debug\knuthran2.obj
+         gsl.dir\Debug\knuthran.obj
+         gsl.dir\Debug\knuthran2002.obj
+         gsl.dir\Debug\lecuyer21.obj
+         gsl.dir\Debug\minstd.obj
+         gsl.dir\Debug\mrg.obj
+         gsl.dir\Debug\mt.obj
+         gsl.dir\Debug\r250.obj
+         gsl.dir\Debug\ran0.obj
+         gsl.dir\Debug\ran1.obj
+         gsl.dir\Debug\ran2.obj
+         gsl.dir\Debug\ran3.obj
+         gsl.dir\Debug\rand48.obj
+         gsl.dir\Debug\rand.obj
+         gsl.dir\Debug\random.obj
+         gsl.dir\Debug\randu.obj
+         gsl.dir\Debug\ranf.obj
+         gsl.dir\Debug\ranlux.obj
+         gsl.dir\Debug\ranlxd.obj
+         gsl.dir\Debug\ranlxs.obj
+         gsl.dir\Debug\ranmar.obj
+         gsl.dir\Debug\rng.obj
+         gsl.dir\Debug\slatec.obj
+         gsl.dir\Debug\taus.obj
+         gsl.dir\Debug\taus113.obj
+         gsl.dir\Debug\transputer.obj
+         gsl.dir\Debug\tt.obj
+         gsl.dir\Debug\types.obj
+         gsl.dir\Debug\uni32.obj
+         gsl.dir\Debug\uni.obj
+         gsl.dir\Debug\vax.obj
+         gsl.dir\Debug\waterman14.obj
+         gsl.dir\Debug\zuf.obj
+         gsl.dir\Debug\bernoulli.obj
+         gsl.dir\Debug\bigauss.obj
+         gsl.dir\Debug\dirichlet.obj
+         gsl.dir\Debug\discrete.obj
+         gsl.dir\Debug\erlang.obj
+         gsl.dir\Debug\gausszig.obj
+         gsl.dir\Debug\gausstail.obj
+         gsl.dir\Debug\gumbel.obj
+         gsl.dir\Debug\levy.obj
+         gsl.dir\Debug\logarithmic.obj
+         gsl.dir\Debug\multinomial.obj
+         gsl.dir\Debug\mvgauss.obj
+         gsl.dir\Debug\shuffle.obj
+         gsl.dir\Debug\sphere.obj
+         gsl.dir\Debug\landau.obj
+         gsl.dir\Debug\binomial_tpe.obj
+         gsl.dir\Debug\wishart.obj
+         gsl.dir\Debug\dft.obj
+         gsl.dir\Debug\fft.obj
+         gsl.dir\Debug\dd.obj
+         gsl.dir\Debug\solve_quadratic.obj
+         gsl.dir\Debug\solve_cubic.obj
+         gsl.dir\Debug\zsolve_quadratic.obj
+         gsl.dir\Debug\zsolve_cubic.obj
+         gsl.dir\Debug\zsolve.obj
+         gsl.dir\Debug\zsolve_init.obj
+         gsl.dir\Debug\gcv.obj
+         gsl.dir\Debug\multilinear.obj
+         gsl.dir\Debug\multiwlinear.obj
+         gsl.dir\Debug\work.obj
+         gsl.dir\Debug\lmniel.obj
+         gsl.dir\Debug\lmder.obj
+         gsl.dir\Debug\fdfridge.obj
+         gsl.dir\Debug\gradient.obj
+         gsl.dir\Debug\multirobust.obj
+         gsl.dir\Debug\robust_wfun.obj
+         gsl.dir\Debug\multireg.obj
+         gsl.dir\Debug\fdfvv.obj
+         gsl.dir\Debug\multilarge.obj
+         gsl.dir\Debug\normal.obj
+         gsl.dir\Debug\tsqr.obj
+         gsl.dir\Debug\cgst.obj
+         gsl.dir\Debug\dummy.obj
+         gsl.dir\Debug\gaussian.obj
+         gsl.dir\Debug\impulse.obj
+         gsl.dir\Debug\rmedian.obj
+         gsl.dir\Debug\alloc.obj
+         gsl.dir\Debug\apply.obj
+         gsl.dir\Debug\fill.obj
+         gsl.dir\Debug\funcacc.obj
+         gsl.dir\Debug\madacc.obj
+         gsl.dir\Debug\medacc.obj
+         gsl.dir\Debug\mmacc.obj
+         gsl.dir\Debug\movmad.obj
+         gsl.dir\Debug\movmean.obj
+         gsl.dir\Debug\movmedian.obj
+         gsl.dir\Debug\movminmax.obj
+         gsl.dir\Debug\movsum.obj
+         gsl.dir\Debug\movSn.obj
+         gsl.dir\Debug\movQn.obj
+         gsl.dir\Debug\movqqr.obj
+         gsl.dir\Debug\movvariance.obj
+         gsl.dir\Debug\mvacc.obj
+         gsl.dir\Debug\qnacc.obj
+         gsl.dir\Debug\qqracc.obj
+         gsl.dir\Debug\snacc.obj
+         gsl.dir\Debug\sumacc.obj
+         gsl.dir\Debug\rstat.obj
+         gsl.dir\Debug\rquantile.obj
+         gsl.dir\Debug\mean.obj
+         gsl.dir\Debug\variance.obj
+         gsl.dir\Debug\absdev.obj
+         gsl.dir\Debug\skew.obj
+         gsl.dir\Debug\kurtosis.obj
+         gsl.dir\Debug\lag1.obj
+         gsl.dir\Debug\p_variance.obj
+         gsl.dir\Debug\ttest.obj
+         gsl.dir\Debug\mad.obj
+         gsl.dir\Debug\covariance.obj
+         gsl.dir\Debug\quantiles.obj
+         gsl.dir\Debug\select.obj
+         gsl.dir\Debug\Sn.obj
+         gsl.dir\Debug\Qn.obj
+         gsl.dir\Debug\gastwirth.obj
+         gsl.dir\Debug\trmean.obj
+         gsl.dir\Debug\wmean.obj
+         gsl.dir\Debug\wvariance.obj
+         gsl.dir\Debug\wabsdev.obj
+         gsl.dir\Debug\wskew.obj
+         gsl.dir\Debug\wkurtosis.obj
+         gsl.dir\Debug\siman.obj
+         gsl.dir\Debug\levin_u.obj
+         gsl.dir\Debug\levin_utrunc.obj
+         gsl.dir\Debug\work_u.obj
+         gsl.dir\Debug\work_utrunc.obj
+         gsl.dir\Debug\qk15.obj
+         gsl.dir\Debug\qk21.obj
+         gsl.dir\Debug\qk31.obj
+         gsl.dir\Debug\qk41.obj
+         gsl.dir\Debug\qk51.obj
+         gsl.dir\Debug\qk61.obj
+         gsl.dir\Debug\qk.obj
+         gsl.dir\Debug\qng.obj
+         gsl.dir\Debug\qag.obj
+         gsl.dir\Debug\qags.obj
+         gsl.dir\Debug\qagp.obj
+         gsl.dir\Debug\workspace.obj
+         gsl.dir\Debug\qcheb.obj
+         gsl.dir\Debug\qawc.obj
+         gsl.dir\Debug\qmomo.obj
+         gsl.dir\Debug\qaws.obj
+         gsl.dir\Debug\qmomof.obj
+         gsl.dir\Debug\qawo.obj
+         gsl.dir\Debug\qawf.obj
+         gsl.dir\Debug\glfixed.obj
+         gsl.dir\Debug\cquad.obj
+         gsl.dir\Debug\fixed.obj
+         gsl.dir\Debug\chebyshev.obj
+         gsl.dir\Debug\chebyshev2.obj
+         gsl.dir\Debug\legendre.obj
+         gsl.dir\Debug\rational.obj
+         gsl.dir\Debug\romberg.obj
+         gsl.dir\Debug\accel.obj
+         gsl.dir\Debug\akima.obj
+         gsl.dir\Debug\cspline.obj
+         gsl.dir\Debug\interp.obj
+         gsl.dir\Debug\spline.obj
+         gsl.dir\Debug\poly.obj
+         gsl.dir\Debug\steffen.obj
+         gsl.dir\Debug\interp2d.obj
+         gsl.dir\Debug\bilinear.obj
+         gsl.dir\Debug\bicubic.obj
+         gsl.dir\Debug\spline2d.obj
+         gsl.dir\Debug\add.obj
+         gsl.dir\Debug\get.obj
+         gsl.dir\Debug\params.obj
+         gsl.dir\Debug\reset.obj
+         gsl.dir\Debug\pdf.obj
+         gsl.dir\Debug\add2d.obj
+         gsl.dir\Debug\get2d.obj
+         gsl.dir\Debug\init2d.obj
+         gsl.dir\Debug\params2d.obj
+         gsl.dir\Debug\reset2d.obj
+         gsl.dir\Debug\file2d.obj
+         gsl.dir\Debug\pdf2d.obj
+         gsl.dir\Debug\calloc_range.obj
+         gsl.dir\Debug\calloc_range2d.obj
+         gsl.dir\Debug\copy2d.obj
+         gsl.dir\Debug\maxval.obj
+         gsl.dir\Debug\maxval2d.obj
+         gsl.dir\Debug\oper2d.obj
+         gsl.dir\Debug\stat.obj
+         gsl.dir\Debug\stat2d.obj
+         gsl.dir\Debug\rk2simp.obj
+         gsl.dir\Debug\gear1.obj
+         gsl.dir\Debug\gear2.obj
+         gsl.dir\Debug\rk1imp.obj
+         gsl.dir\Debug\msadams.obj
+         gsl.dir\Debug\msbdf.obj
+         gsl.dir\Debug\driver.obj
+         gsl.dir\Debug\bisection.obj
+         gsl.dir\Debug\falsepos.obj
+         gsl.dir\Debug\secant.obj
+         gsl.dir\Debug\steffenson.obj
+         gsl.dir\Debug\gnewton.obj
+         gsl.dir\Debug\dnewton.obj
+         gsl.dir\Debug\broyden.obj
+         gsl.dir\Debug\hybrid.obj
+         gsl.dir\Debug\hybridj.obj
+         gsl.dir\Debug\golden.obj
+         gsl.dir\Debug\bracketing.obj
+         gsl.dir\Debug\quad_golden.obj
+         gsl.dir\Debug\fdfminimizer.obj
+         gsl.dir\Debug\steepest_descent.obj
+         gsl.dir\Debug\conjugate_fr.obj
+         gsl.dir\Debug\conjugate_pr.obj
+         gsl.dir\Debug\vector_bfgs.obj
+         gsl.dir\Debug\vector_bfgs2.obj
+         gsl.dir\Debug\fminimizer.obj
+         gsl.dir\Debug\simplex.obj
+         gsl.dir\Debug\simplex2.obj
+         gsl.dir\Debug\miser.obj
+         gsl.dir\Debug\plain.obj
+         gsl.dir\Debug\vegas.obj
+         gsl.dir\Debug\ntuple.obj
+         gsl.dir\Debug\betainv.obj
+         gsl.dir\Debug\cauchyinv.obj
+         gsl.dir\Debug\chisqinv.obj
+         gsl.dir\Debug\exponentialinv.obj
+         gsl.dir\Debug\fdistinv.obj
+         gsl.dir\Debug\flatinv.obj
+         gsl.dir\Debug\gammainv.obj
+         gsl.dir\Debug\gaussinv.obj
+         gsl.dir\Debug\gumbel1.obj
+         gsl.dir\Debug\gumbel1inv.obj
+         gsl.dir\Debug\gumbel2.obj
+         gsl.dir\Debug\gumbel2inv.obj
+         gsl.dir\Debug\laplaceinv.obj
+         gsl.dir\Debug\logisticinv.obj
+         gsl.dir\Debug\lognormalinv.obj
+         gsl.dir\Debug\paretoinv.obj
+         gsl.dir\Debug\rayleighinv.obj
+         gsl.dir\Debug\tdistinv.obj
+         gsl.dir\Debug\weibullinv.obj
+         gsl.dir\Debug\hypergeometric.obj
+         gsl.dir\Debug\dwt.obj
+         gsl.dir\Debug\wavelet.obj
+         gsl.dir\Debug\daubechies.obj
+         gsl.dir\Debug\haar.obj
+         gsl.dir\Debug\greville.obj
+         gsl.dir\Debug\spdgemm.obj
+         gsl.dir\Debug\spdgemv.obj
+         gsl.dir\Debug\compress.obj
+         gsl.dir\Debug\util.obj
+         gsl.dir\Debug\itersolve.obj
+         gsl.dir\Debug\gmres.obj
+         gsl.dir\Debug\version.obj
+         gsl.dir\Debug\/sys/minmax.c.obj
+         gsl.dir\Debug\/sys/pow_int.c.obj
+         gsl.dir\Debug\/complex/inline.c.obj
+         gsl.dir\Debug\/cheb/deriv.c.obj
+         gsl.dir\Debug\/cheb/eval.c.obj
+         gsl.dir\Debug\/cheb/init.c.obj
+         gsl.dir\Debug\/block/init.c.obj
+         gsl.dir\Debug\/block/file.c.obj
+         gsl.dir\Debug\/vector/init.c.obj
+         gsl.dir\Debug\/vector/file.c.obj
+         gsl.dir\Debug\/vector/copy.c.obj
+         gsl.dir\Debug\/vector/swap.c.obj
+         gsl.dir\Debug\/vector/prop.c.obj
+         gsl.dir\Debug\/vector/minmax.c.obj
+         gsl.dir\Debug\/vector/oper.c.obj
+         gsl.dir\Debug\/vector/view.c.obj
+         gsl.dir\Debug\/matrix/init.c.obj
+         gsl.dir\Debug\/matrix/file.c.obj
+         gsl.dir\Debug\/matrix/swap.c.obj
+         gsl.dir\Debug\/matrix/copy.c.obj
+         gsl.dir\Debug\/matrix/minmax.c.obj
+         gsl.dir\Debug\/matrix/prop.c.obj
+         gsl.dir\Debug\/matrix/oper.c.obj
+         gsl.dir\Debug\/matrix/getset.c.obj
+         gsl.dir\Debug\/matrix/view.c.obj
+         gsl.dir\Debug\/permutation/init.c.obj
+         gsl.dir\Debug\/permutation/file.c.obj
+         gsl.dir\Debug\/permutation/inline.c.obj
+         gsl.dir\Debug\/combination/init.c.obj
+         gsl.dir\Debug\/combination/file.c.obj
+         gsl.dir\Debug\/combination/inline.c.obj
+         gsl.dir\Debug\/multiset/init.c.obj
+         gsl.dir\Debug\/multiset/file.c.obj
+         gsl.dir\Debug\/multiset/inline.c.obj
+         gsl.dir\Debug\/sort/sort.c.obj
+         gsl.dir\Debug\/linalg/exponential.c.obj
+         gsl.dir\Debug\/linalg/qr.c.obj
+         gsl.dir\Debug\/linalg/svd.c.obj
+         gsl.dir\Debug\/linalg/cholesky.c.obj
+         gsl.dir\Debug\/linalg/mcholesky.c.obj
+         gsl.dir\Debug\/linalg/inline.c.obj
+         gsl.dir\Debug\/eigen/jacobi.c.obj
+         gsl.dir\Debug\/eigen/sort.c.obj
+         gsl.dir\Debug\/specfunc/beta.c.obj
+         gsl.dir\Debug\/specfunc/gegenbauer.c.obj
+         gsl.dir\Debug\/specfunc/gamma.c.obj
+         gsl.dir\Debug\/specfunc/hermite.c.obj
+         gsl.dir\Debug\/specfunc/hyperg.c.obj
+         gsl.dir\Debug\/specfunc/inline.c.obj
+         gsl.dir\Debug\/specfunc/laguerre.c.obj
+         gsl.dir\Debug\/specfunc/pow_int.c.obj
+         gsl.dir\Debug\/qrng/inline.c.obj
+         gsl.dir\Debug\/rng/file.c.obj
+         gsl.dir\Debug\/rng/inline.c.obj
+         gsl.dir\Debug\/randist/beta.c.obj
+         gsl.dir\Debug\/randist/binomial.c.obj
+         gsl.dir\Debug\/randist/cauchy.c.obj
+         gsl.dir\Debug\/randist/chisq.c.obj
+         gsl.dir\Debug\/randist/exponential.c.obj
+         gsl.dir\Debug\/randist/exppow.c.obj
+         gsl.dir\Debug\/randist/fdist.c.obj
+         gsl.dir\Debug\/randist/flat.c.obj
+         gsl.dir\Debug\/randist/gamma.c.obj
+         gsl.dir\Debug\/randist/gauss.c.obj
+         gsl.dir\Debug\/randist/geometric.c.obj
+         gsl.dir\Debug\/randist/hyperg.c.obj
+         gsl.dir\Debug\/randist/laplace.c.obj
+         gsl.dir\Debug\/randist/logistic.c.obj
+         gsl.dir\Debug\/randist/lognormal.c.obj
+         gsl.dir\Debug\/randist/nbinomial.c.obj
+         gsl.dir\Debug\/randist/pareto.c.obj
+         gsl.dir\Debug\/randist/pascal.c.obj
+         gsl.dir\Debug\/randist/poisson.c.obj
+         gsl.dir\Debug\/randist/rayleigh.c.obj
+         gsl.dir\Debug\/randist/tdist.c.obj
+         gsl.dir\Debug\/randist/weibull.c.obj
+         gsl.dir\Debug\/poly/eval.c.obj
+         gsl.dir\Debug\/poly/deriv.c.obj
+         gsl.dir\Debug\/fit/linear.c.obj
+         gsl.dir\Debug\/multifit/fsolver.c.obj
+         gsl.dir\Debug\/multifit/fdfsolver.c.obj
+         gsl.dir\Debug\/multifit/fdjac.c.obj
+         gsl.dir\Debug\/multifit/convergence.c.obj
+         gsl.dir\Debug\/multifit/covar.c.obj
+         gsl.dir\Debug\/multifit_nlinear/cholesky.c.obj
+         gsl.dir\Debug\/multifit_nlinear/convergence.c.obj
+         gsl.dir\Debug\/multifit_nlinear/covar.c.obj
+         gsl.dir\Debug\/multifit_nlinear/dogleg.c.obj
+         gsl.dir\Debug\/multifit_nlinear/fdf.c.obj
+         gsl.dir\Debug\/multifit_nlinear/fdjac.c.obj
+         gsl.dir\Debug\/multifit_nlinear/lm.c.obj
+         gsl.dir\Debug\/multifit_nlinear/mcholesky.c.obj
+         gsl.dir\Debug\/multifit_nlinear/qr.c.obj
+         gsl.dir\Debug\/multifit_nlinear/scaling.c.obj
+         gsl.dir\Debug\/multifit_nlinear/subspace2D.c.obj
+         gsl.dir\Debug\/multifit_nlinear/svd.c.obj
+         gsl.dir\Debug\/multifit_nlinear/trust.c.obj
+         gsl.dir\Debug\/multilarge_nlinear/cholesky.c.obj
+         gsl.dir\Debug\/multilarge_nlinear/convergence.c.obj
+         gsl.dir\Debug\/multilarge_nlinear/dogleg.c.obj
+         gsl.dir\Debug\/multilarge_nlinear/fdf.c.obj
+         gsl.dir\Debug\/multilarge_nlinear/lm.c.obj
+         gsl.dir\Debug\/multilarge_nlinear/mcholesky.c.obj
+         gsl.dir\Debug\/multilarge_nlinear/scaling.c.obj
+         gsl.dir\Debug\/multilarge_nlinear/subspace2D.c.obj
+         gsl.dir\Debug\/multilarge_nlinear/trust.c.obj
+         gsl.dir\Debug\/filter/median.c.obj
+         gsl.dir\Debug\/statistics/minmax.c.obj
+         gsl.dir\Debug\/statistics/median.c.obj
+         gsl.dir\Debug\/integration/hermite.c.obj
+         gsl.dir\Debug\/integration/laguerre.c.obj
+         gsl.dir\Debug\/integration/gegenbauer.c.obj
+         gsl.dir\Debug\/integration/jacobi.c.obj
+         gsl.dir\Debug\/integration/exponential.c.obj
+         gsl.dir\Debug\/interpolation/linear.c.obj
+         gsl.dir\Debug\/interpolation/inline.c.obj
+         gsl.dir\Debug\/histogram/init.c.obj
+         gsl.dir\Debug\/histogram/file.c.obj
+         gsl.dir\Debug\/histogram/copy.c.obj
+         gsl.dir\Debug\/histogram/oper.c.obj
+         "gsl.dir\Debug\/ode-initval/control.c.obj"
+         "gsl.dir\Debug\/ode-initval/cstd.c.obj"
+         "gsl.dir\Debug\/ode-initval/cscal.c.obj"
+         "gsl.dir\Debug\/ode-initval/evolve.c.obj"
+         "gsl.dir\Debug\/ode-initval/step.c.obj"
+         "gsl.dir\Debug\/ode-initval/rk2.c.obj"
+         "gsl.dir\Debug\/ode-initval/rk2imp.c.obj"
+         "gsl.dir\Debug\/ode-initval/rk4.c.obj"
+         "gsl.dir\Debug\/ode-initval/rk4imp.c.obj"
+         "gsl.dir\Debug\/ode-initval/rkf45.c.obj"
+         "gsl.dir\Debug\/ode-initval/rk8pd.c.obj"
+         "gsl.dir\Debug\/ode-initval/rkck.c.obj"
+         "gsl.dir\Debug\/ode-initval/bsimp.c.obj"
+         "gsl.dir\Debug\/ode-initval2/control.c.obj"
+         "gsl.dir\Debug\/ode-initval2/cstd.c.obj"
+         "gsl.dir\Debug\/ode-initval2/cscal.c.obj"
+         "gsl.dir\Debug\/ode-initval2/evolve.c.obj"
+         "gsl.dir\Debug\/ode-initval2/step.c.obj"
+         "gsl.dir\Debug\/ode-initval2/rk2.c.obj"
+         "gsl.dir\Debug\/ode-initval2/rk2imp.c.obj"
+         "gsl.dir\Debug\/ode-initval2/rk4.c.obj"
+         "gsl.dir\Debug\/ode-initval2/rk4imp.c.obj"
+         "gsl.dir\Debug\/ode-initval2/rkf45.c.obj"
+         "gsl.dir\Debug\/ode-initval2/rk8pd.c.obj"
+         "gsl.dir\Debug\/ode-initval2/rkck.c.obj"
+         "gsl.dir\Debug\/ode-initval2/bsimp.c.obj"
+         gsl.dir\Debug\/roots/brent.c.obj
+         gsl.dir\Debug\/roots/newton.c.obj
+         gsl.dir\Debug\/roots/convergence.c.obj
+         gsl.dir\Debug\/roots/fsolver.c.obj
+         gsl.dir\Debug\/roots/fdfsolver.c.obj
+         gsl.dir\Debug\/multiroots/fdjac.c.obj
+         gsl.dir\Debug\/multiroots/fsolver.c.obj
+         gsl.dir\Debug\/multiroots/fdfsolver.c.obj
+         gsl.dir\Debug\/multiroots/convergence.c.obj
+         gsl.dir\Debug\/multiroots/newton.c.obj
+         gsl.dir\Debug\/min/fsolver.c.obj
+         gsl.dir\Debug\/min/brent.c.obj
+         gsl.dir\Debug\/min/convergence.c.obj
+         gsl.dir\Debug\/multimin/convergence.c.obj
+         gsl.dir\Debug\/multimin/diff.c.obj
+         gsl.dir\Debug\/diff/diff.c.obj
+         gsl.dir\Debug\/deriv/deriv.c.obj
+         gsl.dir\Debug\/cdf/beta.c.obj
+         gsl.dir\Debug\/cdf/cauchy.c.obj
+         gsl.dir\Debug\/cdf/chisq.c.obj
+         gsl.dir\Debug\/cdf/exponential.c.obj
+         gsl.dir\Debug\/cdf/exppow.c.obj
+         gsl.dir\Debug\/cdf/fdist.c.obj
+         gsl.dir\Debug\/cdf/flat.c.obj
+         gsl.dir\Debug\/cdf/gamma.c.obj
+         gsl.dir\Debug\/cdf/gauss.c.obj
+         gsl.dir\Debug\/cdf/laplace.c.obj
+         gsl.dir\Debug\/cdf/logistic.c.obj
+         gsl.dir\Debug\/cdf/lognormal.c.obj
+         gsl.dir\Debug\/cdf/pareto.c.obj
+         gsl.dir\Debug\/cdf/rayleigh.c.obj
+         gsl.dir\Debug\/cdf/tdist.c.obj
+         gsl.dir\Debug\/cdf/weibull.c.obj
+         gsl.dir\Debug\/cdf/binomial.c.obj
+         gsl.dir\Debug\/cdf/poisson.c.obj
+         gsl.dir\Debug\/cdf/geometric.c.obj
+         gsl.dir\Debug\/cdf/nbinomial.c.obj
+         gsl.dir\Debug\/cdf/pascal.c.obj
+         gsl.dir\Debug\/wavelet/bspline.c.obj
+         gsl.dir\Debug\/bspline/bspline.c.obj
+         gsl.dir\Debug\/spmatrix/copy.c.obj
+         gsl.dir\Debug\/spmatrix/file.c.obj
+         gsl.dir\Debug\/spmatrix/getset.c.obj
+         gsl.dir\Debug\/spmatrix/init.c.obj
+         gsl.dir\Debug\/spmatrix/minmax.c.obj
+         gsl.dir\Debug\/spmatrix/oper.c.obj
+         gsl.dir\Debug\/spmatrix/prop.c.obj
+         gsl.dir\Debug\/spmatrix/swap.c.obj  /machine:X86 
+         gsl.vcxproj -> C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\Debug\gsl.lib
+       FinalizeBuildStatus:
+         正在删除文件“gsl.dir\Debug\gsl.unsuccessfulbuild”。
+         正在对“gsl.dir\Debug\gsl.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\mochangming\Desktop\New folder\shockwave\shockwave\gsl\build\gsl.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:05:13.53

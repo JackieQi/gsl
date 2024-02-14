@@ -1,0 +1,1309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{238797FA-4DED-3347-A258-193CFDF18694}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>gsl</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">gsl.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">gsl</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">gsl.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">gsl</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\mochangming\gsl\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">gsl.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">gsl</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\mochangming\gsl\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">gsl.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">gsl</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4028;4056;4101;4244;4267;4334;4477;4700;4723;4756;4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DLL_EXPORT;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;DLL_EXPORT;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\mochangming\gsl\.;C:\Users\mochangming\gsl\build;C:\Users\mochangming\gsl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\mochangming\gsl\.;C:\Users\mochangming\gsl\build;C:\Users\mochangming\gsl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4018;4028;4056;4101;4244;4267;4334;4477;4700;4723;4756;4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_EXPORT;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_EXPORT;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\mochangming\gsl\.;C:\Users\mochangming\gsl\build;C:\Users\mochangming\gsl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\mochangming\gsl\.;C:\Users\mochangming\gsl\build;C:\Users\mochangming\gsl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\mochangming\gsl\.;C:\Users\mochangming\gsl\build;C:\Users\mochangming\gsl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableSpecificWarnings>4018;4028;4056;4101;4244;4267;4334;4477;4700;4723;4756;4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_EXPORT;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_EXPORT;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\mochangming\gsl\.;C:\Users\mochangming\gsl\build;C:\Users\mochangming\gsl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\mochangming\gsl\.;C:\Users\mochangming\gsl\build;C:\Users\mochangming\gsl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\mochangming\gsl\.;C:\Users\mochangming\gsl\build;C:\Users\mochangming\gsl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4018;4028;4056;4101;4244;4267;4334;4477;4700;4723;4756;4996</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_EXPORT;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DLL_EXPORT;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\mochangming\gsl\.;C:\Users\mochangming\gsl\build;C:\Users\mochangming\gsl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\mochangming\gsl\.;C:\Users\mochangming\gsl\build;C:\Users\mochangming\gsl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/mochangming/gsl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/mochangming/gsl -BC:/Users/mochangming/gsl/build --check-stamp-file C:\Users\mochangming\gsl\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/mochangming/gsl/CMakeLists.txt;C:\Users\mochangming\gsl\CMakeLists.txt;C:\Users\mochangming\gsl\cmake\init.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystem.cmake.in;C:\Users\mochangming\gsl\build\CMakeFiles\3.4.3\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Users\mochangming\gsl\build\CMakeFiles\3.4.3\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;C:\Users\mochangming\gsl\build\CMakeFiles\3.4.3\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCCompiler.cmake.in;C:\Users\mochangming\gsl\build\CMakeFiles\3.4.3\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestRCCompiler.cmake;C:\Users\mochangming\gsl\cmake\c_flag_overrides.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Users\mochangming\gsl\build\CMakeFiles\3.4.3\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Users\mochangming\gsl\cmake\c_flag_overrides.cmake;C:\Users\mochangming\gsl\cmake\cxx_flag_overrides.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\mochangming\gsl\build\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;C:\Users\mochangming\gsl\build\CMakeFiles\3.4.3\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Users\mochangming\gsl\config.h.cmake.in;C:\Users\mochangming\gsl\gsl.pc.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Users\mochangming\gsl\cmake\gsl-config.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\mochangming\gsl\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\mochangming\gsl\build\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/mochangming/gsl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/mochangming/gsl -BC:/Users/mochangming/gsl/build --check-stamp-file C:\Users\mochangming\gsl\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/mochangming/gsl/CMakeLists.txt;C:\Users\mochangming\gsl\CMakeLists.txt;C:\Users\mochangming\gsl\cmake\init.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystem.cmake.in;C:\Users\mochangming\gsl\build\CMakeFiles\3.4.3\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Users\mochangming\gsl\build\CMakeFiles\3.4.3\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;C:\Users\mochangming\gsl\build\CMakeFiles\3.4.3\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCCompiler.cmake.in;C:\Users\mochangming\gsl\build\CMakeFiles\3.4.3\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestRCCompiler.cmake;C:\Users\mochangming\gsl\cmake\c_flag_overrides.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Users\mochangming\gsl\build\CMakeFiles\3.4.3\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Users\mochangming\gsl\cmake\c_flag_overrides.cmake;C:\Users\mochangming\gsl\cmake\cxx_flag_overrides.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\mochangming\gsl\build\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;C:\Users\mochangming\gsl\build\CMakeFiles\3.4.3\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Users\mochangming\gsl\config.h.cmake.in;C:\Users\mochangming\gsl\gsl.pc.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Users\mochangming\gsl\cmake\gsl-config.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\mochangming\gsl\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\mochangming\gsl\build\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/mochangming/gsl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/mochangming/gsl -BC:/Users/mochangming/gsl/build --check-stamp-file C:\Users\mochangming\gsl\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/mochangming/gsl/CMakeLists.txt;C:\Users\mochangming\gsl\CMakeLists.txt;C:\Users\mochangming\gsl\cmake\init.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystem.cmake.in;C:\Users\mochangming\gsl\build\CMakeFiles\3.4.3\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Users\mochangming\gsl\build\CMakeFiles\3.4.3\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;C:\Users\mochangming\gsl\build\CMakeFiles\3.4.3\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCCompiler.cmake.in;C:\Users\mochangming\gsl\build\CMakeFiles\3.4.3\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestRCCompiler.cmake;C:\Users\mochangming\gsl\cmake\c_flag_overrides.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Users\mochangming\gsl\build\CMakeFiles\3.4.3\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Users\mochangming\gsl\cmake\c_flag_overrides.cmake;C:\Users\mochangming\gsl\cmake\cxx_flag_overrides.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\mochangming\gsl\build\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;C:\Users\mochangming\gsl\build\CMakeFiles\3.4.3\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Users\mochangming\gsl\config.h.cmake.in;C:\Users\mochangming\gsl\gsl.pc.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Users\mochangming\gsl\cmake\gsl-config.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\mochangming\gsl\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\mochangming\gsl\build\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/mochangming/gsl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/mochangming/gsl -BC:/Users/mochangming/gsl/build --check-stamp-file C:\Users\mochangming\gsl\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/mochangming/gsl/CMakeLists.txt;C:\Users\mochangming\gsl\CMakeLists.txt;C:\Users\mochangming\gsl\cmake\init.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystem.cmake.in;C:\Users\mochangming\gsl\build\CMakeFiles\3.4.3\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Users\mochangming\gsl\build\CMakeFiles\3.4.3\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;C:\Users\mochangming\gsl\build\CMakeFiles\3.4.3\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCCompiler.cmake.in;C:\Users\mochangming\gsl\build\CMakeFiles\3.4.3\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestRCCompiler.cmake;C:\Users\mochangming\gsl\cmake\c_flag_overrides.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Users\mochangming\gsl\build\CMakeFiles\3.4.3\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Users\mochangming\gsl\cmake\c_flag_overrides.cmake;C:\Users\mochangming\gsl\cmake\cxx_flag_overrides.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Users\mochangming\gsl\build\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;C:\Users\mochangming\gsl\build\CMakeFiles\3.4.3\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeConfigurableFile.in;C:\Users\mochangming\gsl\config.h.cmake.in;C:\Users\mochangming\gsl\gsl.pc.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Users\mochangming\gsl\cmake\gsl-config.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\mochangming\gsl\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\mochangming\gsl\build\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\utils\system.h" />
+    <ClInclude Include="..\vector\view.h" />
+    <ClInclude Include="..\matrix\view.h" />
+    <ClInclude Include="..\ieee-utils\gsl_ieee_utils.h" />
+    <ClInclude Include="..\linalg\tridiag.h" />
+    <ClInclude Include="..\specfunc\bessel.h" />
+    <ClInclude Include="..\specfunc\bessel_amp_phase.h" />
+    <ClInclude Include="..\specfunc\recurse.h" />
+    <ClInclude Include="..\qrng\gsl_qrng.h" />
+    <ClInclude Include="..\integration\qng.h" />
+    <ClInclude Include="..\interpolation\integ_eval.h" />
+    <ClInclude Include="..\histogram\gsl_histogram.h" />
+    <ClInclude Include="..\histogram\gsl_histogram2d.h" />
+    <ClInclude Include="..\monte\gsl_monte_vegas.h" />
+    <ClInclude Include="..\monte\gsl_monte_miser.h" />
+    <ClInclude Include="..\monte\gsl_monte_plain.h" />
+    <ClInclude Include="..\monte\gsl_monte.h" />
+    <ClCompile Include="..\utils\placeholder.c" />
+    <ClCompile Include="..\sys\minmax.c">
+      <ObjectFileName>$(IntDir)/sys/minmax.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\sys\prec.c" />
+    <ClCompile Include="..\sys\hypot.c" />
+    <ClCompile Include="..\sys\log1p.c" />
+    <ClCompile Include="..\sys\expm1.c" />
+    <ClCompile Include="..\sys\coerce.c" />
+    <ClCompile Include="..\sys\invhyp.c" />
+    <ClCompile Include="..\sys\pow_int.c">
+      <ObjectFileName>$(IntDir)/sys/pow_int.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\sys\infnan.c" />
+    <ClCompile Include="..\sys\fdiv.c" />
+    <ClCompile Include="..\sys\fcmp.c" />
+    <ClCompile Include="..\sys\ldfrexp.c" />
+    <ClCompile Include="..\test\results.c" />
+    <ClCompile Include="..\err\error.c" />
+    <ClCompile Include="..\err\stream.c" />
+    <ClCompile Include="..\err\message.c" />
+    <ClCompile Include="..\err\strerror.c" />
+    <ClCompile Include="..\bst\avl.c" />
+    <ClCompile Include="..\bst\bst.c" />
+    <ClCompile Include="..\bst\rb.c" />
+    <ClCompile Include="..\bst\trav.c" />
+    <ClCompile Include="..\complex\math.c" />
+    <ClCompile Include="..\complex\inline.c">
+      <ObjectFileName>$(IntDir)/complex/inline.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\cheb\deriv.c">
+      <ObjectFileName>$(IntDir)/cheb/deriv.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\cheb\eval.c">
+      <ObjectFileName>$(IntDir)/cheb/eval.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\cheb\init.c">
+      <ObjectFileName>$(IntDir)/cheb/init.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\cheb\integ.c" />
+    <ClCompile Include="..\block\init.c">
+      <ObjectFileName>$(IntDir)/block/init.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\block\file.c">
+      <ObjectFileName>$(IntDir)/block/file.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\block\block.c" />
+    <ClCompile Include="..\vector\init.c">
+      <ObjectFileName>$(IntDir)/vector/init.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\vector\file.c">
+      <ObjectFileName>$(IntDir)/vector/file.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\vector\vector.c" />
+    <ClCompile Include="..\vector\copy.c">
+      <ObjectFileName>$(IntDir)/vector/copy.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\vector\swap.c">
+      <ObjectFileName>$(IntDir)/vector/swap.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\vector\prop.c">
+      <ObjectFileName>$(IntDir)/vector/prop.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\vector\minmax.c">
+      <ObjectFileName>$(IntDir)/vector/minmax.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\vector\oper.c">
+      <ObjectFileName>$(IntDir)/vector/oper.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\vector\reim.c" />
+    <ClCompile Include="..\vector\subvector.c" />
+    <ClCompile Include="..\vector\view.c">
+      <ObjectFileName>$(IntDir)/vector/view.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\matrix\init.c">
+      <ObjectFileName>$(IntDir)/matrix/init.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\matrix\matrix.c" />
+    <ClCompile Include="..\matrix\file.c">
+      <ObjectFileName>$(IntDir)/matrix/file.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\matrix\rowcol.c" />
+    <ClCompile Include="..\matrix\swap.c">
+      <ObjectFileName>$(IntDir)/matrix/swap.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\matrix\copy.c">
+      <ObjectFileName>$(IntDir)/matrix/copy.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\matrix\minmax.c">
+      <ObjectFileName>$(IntDir)/matrix/minmax.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\matrix\prop.c">
+      <ObjectFileName>$(IntDir)/matrix/prop.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\matrix\oper.c">
+      <ObjectFileName>$(IntDir)/matrix/oper.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\matrix\getset.c">
+      <ObjectFileName>$(IntDir)/matrix/getset.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\matrix\view.c">
+      <ObjectFileName>$(IntDir)/matrix/view.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\matrix\submatrix.c" />
+    <ClCompile Include="..\permutation\init.c">
+      <ObjectFileName>$(IntDir)/permutation/init.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\permutation\file.c">
+      <ObjectFileName>$(IntDir)/permutation/file.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\permutation\permutation.c" />
+    <ClCompile Include="..\permutation\permute.c" />
+    <ClCompile Include="..\permutation\canonical.c" />
+    <ClCompile Include="..\permutation\inline.c">
+      <ObjectFileName>$(IntDir)/permutation/inline.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\combination\init.c">
+      <ObjectFileName>$(IntDir)/combination/init.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\combination\file.c">
+      <ObjectFileName>$(IntDir)/combination/file.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\combination\combination.c" />
+    <ClCompile Include="..\combination\inline.c">
+      <ObjectFileName>$(IntDir)/combination/inline.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multiset\init.c">
+      <ObjectFileName>$(IntDir)/multiset/init.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multiset\file.c">
+      <ObjectFileName>$(IntDir)/multiset/file.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multiset\multiset.c" />
+    <ClCompile Include="..\multiset\inline.c">
+      <ObjectFileName>$(IntDir)/multiset/inline.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\sort\sort.c">
+      <ObjectFileName>$(IntDir)/sort/sort.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\sort\sortind.c" />
+    <ClCompile Include="..\sort\sortvec.c" />
+    <ClCompile Include="..\sort\sortvecind.c" />
+    <ClCompile Include="..\sort\subset.c" />
+    <ClCompile Include="..\sort\subsetind.c" />
+    <ClCompile Include="..\ieee-utils\print.c" />
+    <ClCompile Include="..\ieee-utils\make_rep.c" />
+    <ClCompile Include="..\ieee-utils\env.c" />
+    <ClCompile Include="..\ieee-utils\fp.c" />
+    <ClCompile Include="..\ieee-utils\read.c" />
+    <ClCompile Include="..\blas\blas.c" />
+    <ClCompile Include="..\linalg\cod.c" />
+    <ClCompile Include="..\linalg\condest.c" />
+    <ClCompile Include="..\linalg\invtri.c" />
+    <ClCompile Include="..\linalg\invtri_complex.c" />
+    <ClCompile Include="..\linalg\multiply.c" />
+    <ClCompile Include="..\linalg\exponential.c">
+      <ObjectFileName>$(IntDir)/linalg/exponential.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\linalg\tridiag.c" />
+    <ClCompile Include="..\linalg\lu.c" />
+    <ClCompile Include="..\linalg\lu_band.c" />
+    <ClCompile Include="..\linalg\luc.c" />
+    <ClCompile Include="..\linalg\hh.c" />
+    <ClCompile Include="..\linalg\ql.c" />
+    <ClCompile Include="..\linalg\qr.c">
+      <ObjectFileName>$(IntDir)/linalg/qr.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\linalg\qr_band.c" />
+    <ClCompile Include="..\linalg\qrc.c" />
+    <ClCompile Include="..\linalg\qrpt.c" />
+    <ClCompile Include="..\linalg\qr_ud.c" />
+    <ClCompile Include="..\linalg\qr_ur.c" />
+    <ClCompile Include="..\linalg\qr_uu.c" />
+    <ClCompile Include="..\linalg\qr_uz.c" />
+    <ClCompile Include="..\linalg\rqr.c" />
+    <ClCompile Include="..\linalg\rqrc.c" />
+    <ClCompile Include="..\linalg\lq.c" />
+    <ClCompile Include="..\linalg\ptlq.c" />
+    <ClCompile Include="..\linalg\svd.c">
+      <ObjectFileName>$(IntDir)/linalg/svd.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\linalg\householder.c" />
+    <ClCompile Include="..\linalg\householdercomplex.c" />
+    <ClCompile Include="..\linalg\hessenberg.c" />
+    <ClCompile Include="..\linalg\hesstri.c" />
+    <ClCompile Include="..\linalg\cholesky.c">
+      <ObjectFileName>$(IntDir)/linalg/cholesky.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\linalg\choleskyc.c" />
+    <ClCompile Include="..\linalg\mcholesky.c">
+      <ObjectFileName>$(IntDir)/linalg/mcholesky.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\linalg\pcholesky.c" />
+    <ClCompile Include="..\linalg\cholesky_band.c" />
+    <ClCompile Include="..\linalg\ldlt.c" />
+    <ClCompile Include="..\linalg\ldlt_band.c" />
+    <ClCompile Include="..\linalg\symmtd.c" />
+    <ClCompile Include="..\linalg\hermtd.c" />
+    <ClCompile Include="..\linalg\bidiag.c" />
+    <ClCompile Include="..\linalg\balance.c" />
+    <ClCompile Include="..\linalg\balancemat.c" />
+    <ClCompile Include="..\linalg\inline.c">
+      <ObjectFileName>$(IntDir)/linalg/inline.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\linalg\trimult.c" />
+    <ClCompile Include="..\linalg\trimult_complex.c" />
+    <ClCompile Include="..\eigen\jacobi.c">
+      <ObjectFileName>$(IntDir)/eigen/jacobi.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\eigen\symm.c" />
+    <ClCompile Include="..\eigen\symmv.c" />
+    <ClCompile Include="..\eigen\nonsymm.c" />
+    <ClCompile Include="..\eigen\nonsymmv.c" />
+    <ClCompile Include="..\eigen\herm.c" />
+    <ClCompile Include="..\eigen\hermv.c" />
+    <ClCompile Include="..\eigen\gensymm.c" />
+    <ClCompile Include="..\eigen\gensymmv.c" />
+    <ClCompile Include="..\eigen\genherm.c" />
+    <ClCompile Include="..\eigen\genhermv.c" />
+    <ClCompile Include="..\eigen\gen.c" />
+    <ClCompile Include="..\eigen\genv.c" />
+    <ClCompile Include="..\eigen\sort.c">
+      <ObjectFileName>$(IntDir)/eigen/sort.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\eigen\francis.c" />
+    <ClCompile Include="..\eigen\schur.c" />
+    <ClCompile Include="..\specfunc\airy.c" />
+    <ClCompile Include="..\specfunc\airy_der.c" />
+    <ClCompile Include="..\specfunc\airy_zero.c" />
+    <ClCompile Include="..\specfunc\atanint.c" />
+    <ClCompile Include="..\specfunc\bessel.c" />
+    <ClCompile Include="..\specfunc\bessel_I0.c" />
+    <ClCompile Include="..\specfunc\bessel_I1.c" />
+    <ClCompile Include="..\specfunc\bessel_In.c" />
+    <ClCompile Include="..\specfunc\bessel_Inu.c" />
+    <ClCompile Include="..\specfunc\bessel_J0.c" />
+    <ClCompile Include="..\specfunc\bessel_J1.c" />
+    <ClCompile Include="..\specfunc\bessel_Jn.c" />
+    <ClCompile Include="..\specfunc\bessel_Jnu.c" />
+    <ClCompile Include="..\specfunc\bessel_K0.c" />
+    <ClCompile Include="..\specfunc\bessel_K1.c" />
+    <ClCompile Include="..\specfunc\bessel_Kn.c" />
+    <ClCompile Include="..\specfunc\bessel_Knu.c" />
+    <ClCompile Include="..\specfunc\bessel_Y0.c" />
+    <ClCompile Include="..\specfunc\bessel_Y1.c" />
+    <ClCompile Include="..\specfunc\bessel_Yn.c" />
+    <ClCompile Include="..\specfunc\bessel_Ynu.c" />
+    <ClCompile Include="..\specfunc\bessel_amp_phase.c" />
+    <ClCompile Include="..\specfunc\bessel_i.c" />
+    <ClCompile Include="..\specfunc\bessel_j.c" />
+    <ClCompile Include="..\specfunc\bessel_k.c" />
+    <ClCompile Include="..\specfunc\bessel_olver.c" />
+    <ClCompile Include="..\specfunc\bessel_temme.c" />
+    <ClCompile Include="..\specfunc\bessel_y.c" />
+    <ClCompile Include="..\specfunc\bessel_zero.c" />
+    <ClCompile Include="..\specfunc\bessel_sequence.c" />
+    <ClCompile Include="..\specfunc\beta.c">
+      <ObjectFileName>$(IntDir)/specfunc/beta.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\specfunc\beta_inc.c" />
+    <ClCompile Include="..\specfunc\clausen.c" />
+    <ClCompile Include="..\specfunc\coulomb.c" />
+    <ClCompile Include="..\specfunc\coupling.c" />
+    <ClCompile Include="..\specfunc\coulomb_bound.c" />
+    <ClCompile Include="..\specfunc\dawson.c" />
+    <ClCompile Include="..\specfunc\debye.c" />
+    <ClCompile Include="..\specfunc\dilog.c" />
+    <ClCompile Include="..\specfunc\elementary.c" />
+    <ClCompile Include="..\specfunc\ellint.c" />
+    <ClCompile Include="..\specfunc\elljac.c" />
+    <ClCompile Include="..\specfunc\erfc.c" />
+    <ClCompile Include="..\specfunc\exp.c" />
+    <ClCompile Include="..\specfunc\expint.c" />
+    <ClCompile Include="..\specfunc\expint3.c" />
+    <ClCompile Include="..\specfunc\fermi_dirac.c" />
+    <ClCompile Include="..\specfunc\gegenbauer.c">
+      <ObjectFileName>$(IntDir)/specfunc/gegenbauer.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\specfunc\gamma.c">
+      <ObjectFileName>$(IntDir)/specfunc/gamma.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\specfunc\gamma_inc.c" />
+    <ClCompile Include="..\specfunc\hermite.c">
+      <ObjectFileName>$(IntDir)/specfunc/hermite.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\specfunc\hyperg_0F1.c" />
+    <ClCompile Include="..\specfunc\hyperg_2F0.c" />
+    <ClCompile Include="..\specfunc\hyperg_1F1.c" />
+    <ClCompile Include="..\specfunc\hyperg_2F1.c" />
+    <ClCompile Include="..\specfunc\hyperg_U.c" />
+    <ClCompile Include="..\specfunc\hyperg.c">
+      <ObjectFileName>$(IntDir)/specfunc/hyperg.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\specfunc\inline.c">
+      <ObjectFileName>$(IntDir)/specfunc/inline.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\specfunc\laguerre.c">
+      <ObjectFileName>$(IntDir)/specfunc/laguerre.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\specfunc\lambert.c" />
+    <ClCompile Include="..\specfunc\legendre_H3d.c" />
+    <ClCompile Include="..\specfunc\legendre_P.c" />
+    <ClCompile Include="..\specfunc\legendre_Qn.c" />
+    <ClCompile Include="..\specfunc\legendre_con.c" />
+    <ClCompile Include="..\specfunc\legendre_poly.c" />
+    <ClCompile Include="..\specfunc\log.c" />
+    <ClCompile Include="..\specfunc\mathieu_angfunc.c" />
+    <ClCompile Include="..\specfunc\mathieu_charv.c" />
+    <ClCompile Include="..\specfunc\mathieu_coeff.c" />
+    <ClCompile Include="..\specfunc\mathieu_radfunc.c" />
+    <ClCompile Include="..\specfunc\mathieu_workspace.c" />
+    <ClCompile Include="..\specfunc\poch.c" />
+    <ClCompile Include="..\specfunc\pow_int.c">
+      <ObjectFileName>$(IntDir)/specfunc/pow_int.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\specfunc\psi.c" />
+    <ClCompile Include="..\specfunc\result.c" />
+    <ClCompile Include="..\specfunc\shint.c" />
+    <ClCompile Include="..\specfunc\sincos_pi.c" />
+    <ClCompile Include="..\specfunc\sinint.c" />
+    <ClCompile Include="..\specfunc\synchrotron.c" />
+    <ClCompile Include="..\specfunc\transport.c" />
+    <ClCompile Include="..\specfunc\trig.c" />
+    <ClCompile Include="..\specfunc\zeta.c" />
+    <ClCompile Include="..\dht\dht.c" />
+    <ClCompile Include="..\qrng\qrng.c" />
+    <ClCompile Include="..\qrng\niederreiter-2.c" />
+    <ClCompile Include="..\qrng\sobol.c" />
+    <ClCompile Include="..\qrng\halton.c" />
+    <ClCompile Include="..\qrng\reversehalton.c" />
+    <ClCompile Include="..\qrng\inline.c">
+      <ObjectFileName>$(IntDir)/qrng/inline.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\rng\borosh13.c" />
+    <ClCompile Include="..\rng\cmrg.c" />
+    <ClCompile Include="..\rng\coveyou.c" />
+    <ClCompile Include="..\rng\default.c" />
+    <ClCompile Include="..\rng\file.c">
+      <ObjectFileName>$(IntDir)/rng/file.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\rng\fishman18.c" />
+    <ClCompile Include="..\rng\fishman20.c" />
+    <ClCompile Include="..\rng\fishman2x.c" />
+    <ClCompile Include="..\rng\gfsr4.c" />
+    <ClCompile Include="..\rng\knuthran2.c" />
+    <ClCompile Include="..\rng\knuthran.c" />
+    <ClCompile Include="..\rng\knuthran2002.c" />
+    <ClCompile Include="..\rng\lecuyer21.c" />
+    <ClCompile Include="..\rng\minstd.c" />
+    <ClCompile Include="..\rng\mrg.c" />
+    <ClCompile Include="..\rng\mt.c" />
+    <ClCompile Include="..\rng\r250.c" />
+    <ClCompile Include="..\rng\ran0.c" />
+    <ClCompile Include="..\rng\ran1.c" />
+    <ClCompile Include="..\rng\ran2.c" />
+    <ClCompile Include="..\rng\ran3.c" />
+    <ClCompile Include="..\rng\rand48.c" />
+    <ClCompile Include="..\rng\rand.c" />
+    <ClCompile Include="..\rng\random.c" />
+    <ClCompile Include="..\rng\randu.c" />
+    <ClCompile Include="..\rng\ranf.c" />
+    <ClCompile Include="..\rng\ranlux.c" />
+    <ClCompile Include="..\rng\ranlxd.c" />
+    <ClCompile Include="..\rng\ranlxs.c" />
+    <ClCompile Include="..\rng\ranmar.c" />
+    <ClCompile Include="..\rng\rng.c" />
+    <ClCompile Include="..\rng\slatec.c" />
+    <ClCompile Include="..\rng\taus.c" />
+    <ClCompile Include="..\rng\taus113.c" />
+    <ClCompile Include="..\rng\transputer.c" />
+    <ClCompile Include="..\rng\tt.c" />
+    <ClCompile Include="..\rng\types.c" />
+    <ClCompile Include="..\rng\uni32.c" />
+    <ClCompile Include="..\rng\uni.c" />
+    <ClCompile Include="..\rng\vax.c" />
+    <ClCompile Include="..\rng\waterman14.c" />
+    <ClCompile Include="..\rng\zuf.c" />
+    <ClCompile Include="..\rng\inline.c">
+      <ObjectFileName>$(IntDir)/rng/inline.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\randist\bernoulli.c" />
+    <ClCompile Include="..\randist\beta.c">
+      <ObjectFileName>$(IntDir)/randist/beta.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\randist\bigauss.c" />
+    <ClCompile Include="..\randist\binomial.c">
+      <ObjectFileName>$(IntDir)/randist/binomial.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\randist\cauchy.c">
+      <ObjectFileName>$(IntDir)/randist/cauchy.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\randist\chisq.c">
+      <ObjectFileName>$(IntDir)/randist/chisq.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\randist\dirichlet.c" />
+    <ClCompile Include="..\randist\discrete.c" />
+    <ClCompile Include="..\randist\erlang.c" />
+    <ClCompile Include="..\randist\exponential.c">
+      <ObjectFileName>$(IntDir)/randist/exponential.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\randist\exppow.c">
+      <ObjectFileName>$(IntDir)/randist/exppow.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\randist\fdist.c">
+      <ObjectFileName>$(IntDir)/randist/fdist.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\randist\flat.c">
+      <ObjectFileName>$(IntDir)/randist/flat.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\randist\gamma.c">
+      <ObjectFileName>$(IntDir)/randist/gamma.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\randist\gauss.c">
+      <ObjectFileName>$(IntDir)/randist/gauss.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\randist\gausszig.c" />
+    <ClCompile Include="..\randist\gausstail.c" />
+    <ClCompile Include="..\randist\geometric.c">
+      <ObjectFileName>$(IntDir)/randist/geometric.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\randist\gumbel.c" />
+    <ClCompile Include="..\randist\hyperg.c">
+      <ObjectFileName>$(IntDir)/randist/hyperg.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\randist\laplace.c">
+      <ObjectFileName>$(IntDir)/randist/laplace.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\randist\levy.c" />
+    <ClCompile Include="..\randist\logarithmic.c" />
+    <ClCompile Include="..\randist\logistic.c">
+      <ObjectFileName>$(IntDir)/randist/logistic.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\randist\lognormal.c">
+      <ObjectFileName>$(IntDir)/randist/lognormal.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\randist\multinomial.c" />
+    <ClCompile Include="..\randist\mvgauss.c" />
+    <ClCompile Include="..\randist\nbinomial.c">
+      <ObjectFileName>$(IntDir)/randist/nbinomial.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\randist\pareto.c">
+      <ObjectFileName>$(IntDir)/randist/pareto.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\randist\pascal.c">
+      <ObjectFileName>$(IntDir)/randist/pascal.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\randist\poisson.c">
+      <ObjectFileName>$(IntDir)/randist/poisson.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\randist\rayleigh.c">
+      <ObjectFileName>$(IntDir)/randist/rayleigh.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\randist\shuffle.c" />
+    <ClCompile Include="..\randist\sphere.c" />
+    <ClCompile Include="..\randist\tdist.c">
+      <ObjectFileName>$(IntDir)/randist/tdist.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\randist\weibull.c">
+      <ObjectFileName>$(IntDir)/randist/weibull.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\randist\landau.c" />
+    <ClCompile Include="..\randist\binomial_tpe.c" />
+    <ClCompile Include="..\randist\wishart.c" />
+    <ClCompile Include="..\fft\dft.c" />
+    <ClCompile Include="..\fft\fft.c" />
+    <ClCompile Include="..\poly\dd.c" />
+    <ClCompile Include="..\poly\eval.c">
+      <ObjectFileName>$(IntDir)/poly/eval.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\poly\solve_quadratic.c" />
+    <ClCompile Include="..\poly\solve_cubic.c" />
+    <ClCompile Include="..\poly\zsolve_quadratic.c" />
+    <ClCompile Include="..\poly\zsolve_cubic.c" />
+    <ClCompile Include="..\poly\zsolve.c" />
+    <ClCompile Include="..\poly\zsolve_init.c" />
+    <ClCompile Include="..\poly\deriv.c">
+      <ObjectFileName>$(IntDir)/poly/deriv.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\fit\linear.c">
+      <ObjectFileName>$(IntDir)/fit/linear.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multifit\gcv.c" />
+    <ClCompile Include="..\multifit\multilinear.c" />
+    <ClCompile Include="..\multifit\multiwlinear.c" />
+    <ClCompile Include="..\multifit\work.c" />
+    <ClCompile Include="..\multifit\lmniel.c" />
+    <ClCompile Include="..\multifit\lmder.c" />
+    <ClCompile Include="..\multifit\fsolver.c">
+      <ObjectFileName>$(IntDir)/multifit/fsolver.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multifit\fdfsolver.c">
+      <ObjectFileName>$(IntDir)/multifit/fdfsolver.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multifit\fdfridge.c" />
+    <ClCompile Include="..\multifit\fdjac.c">
+      <ObjectFileName>$(IntDir)/multifit/fdjac.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multifit\convergence.c">
+      <ObjectFileName>$(IntDir)/multifit/convergence.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multifit\gradient.c" />
+    <ClCompile Include="..\multifit\covar.c">
+      <ObjectFileName>$(IntDir)/multifit/covar.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multifit\multirobust.c" />
+    <ClCompile Include="..\multifit\robust_wfun.c" />
+    <ClCompile Include="..\multifit\multireg.c" />
+    <ClCompile Include="..\multifit_nlinear\cholesky.c">
+      <ObjectFileName>$(IntDir)/multifit_nlinear/cholesky.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multifit_nlinear\convergence.c">
+      <ObjectFileName>$(IntDir)/multifit_nlinear/convergence.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multifit_nlinear\covar.c">
+      <ObjectFileName>$(IntDir)/multifit_nlinear/covar.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multifit_nlinear\dogleg.c">
+      <ObjectFileName>$(IntDir)/multifit_nlinear/dogleg.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multifit_nlinear\fdf.c">
+      <ObjectFileName>$(IntDir)/multifit_nlinear/fdf.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multifit_nlinear\fdfvv.c" />
+    <ClCompile Include="..\multifit_nlinear\fdjac.c">
+      <ObjectFileName>$(IntDir)/multifit_nlinear/fdjac.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multifit_nlinear\lm.c">
+      <ObjectFileName>$(IntDir)/multifit_nlinear/lm.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multifit_nlinear\mcholesky.c">
+      <ObjectFileName>$(IntDir)/multifit_nlinear/mcholesky.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multifit_nlinear\qr.c">
+      <ObjectFileName>$(IntDir)/multifit_nlinear/qr.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multifit_nlinear\scaling.c">
+      <ObjectFileName>$(IntDir)/multifit_nlinear/scaling.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multifit_nlinear\subspace2D.c">
+      <ObjectFileName>$(IntDir)/multifit_nlinear/subspace2D.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multifit_nlinear\svd.c">
+      <ObjectFileName>$(IntDir)/multifit_nlinear/svd.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multifit_nlinear\trust.c">
+      <ObjectFileName>$(IntDir)/multifit_nlinear/trust.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multilarge\multilarge.c" />
+    <ClCompile Include="..\multilarge\normal.c" />
+    <ClCompile Include="..\multilarge\tsqr.c" />
+    <ClCompile Include="..\multilarge_nlinear\cgst.c" />
+    <ClCompile Include="..\multilarge_nlinear\cholesky.c">
+      <ObjectFileName>$(IntDir)/multilarge_nlinear/cholesky.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multilarge_nlinear\convergence.c">
+      <ObjectFileName>$(IntDir)/multilarge_nlinear/convergence.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multilarge_nlinear\dogleg.c">
+      <ObjectFileName>$(IntDir)/multilarge_nlinear/dogleg.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multilarge_nlinear\dummy.c" />
+    <ClCompile Include="..\multilarge_nlinear\fdf.c">
+      <ObjectFileName>$(IntDir)/multilarge_nlinear/fdf.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multilarge_nlinear\lm.c">
+      <ObjectFileName>$(IntDir)/multilarge_nlinear/lm.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multilarge_nlinear\mcholesky.c">
+      <ObjectFileName>$(IntDir)/multilarge_nlinear/mcholesky.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multilarge_nlinear\scaling.c">
+      <ObjectFileName>$(IntDir)/multilarge_nlinear/scaling.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multilarge_nlinear\subspace2D.c">
+      <ObjectFileName>$(IntDir)/multilarge_nlinear/subspace2D.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multilarge_nlinear\trust.c">
+      <ObjectFileName>$(IntDir)/multilarge_nlinear/trust.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\filter\gaussian.c" />
+    <ClCompile Include="..\filter\impulse.c" />
+    <ClCompile Include="..\filter\median.c">
+      <ObjectFileName>$(IntDir)/filter/median.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\filter\rmedian.c" />
+    <ClCompile Include="..\movstat\alloc.c" />
+    <ClCompile Include="..\movstat\apply.c" />
+    <ClCompile Include="..\movstat\fill.c" />
+    <ClCompile Include="..\movstat\funcacc.c" />
+    <ClCompile Include="..\movstat\madacc.c" />
+    <ClCompile Include="..\movstat\medacc.c" />
+    <ClCompile Include="..\movstat\mmacc.c" />
+    <ClCompile Include="..\movstat\movmad.c" />
+    <ClCompile Include="..\movstat\movmean.c" />
+    <ClCompile Include="..\movstat\movmedian.c" />
+    <ClCompile Include="..\movstat\movminmax.c" />
+    <ClCompile Include="..\movstat\movsum.c" />
+    <ClCompile Include="..\movstat\movSn.c" />
+    <ClCompile Include="..\movstat\movQn.c" />
+    <ClCompile Include="..\movstat\movqqr.c" />
+    <ClCompile Include="..\movstat\movvariance.c" />
+    <ClCompile Include="..\movstat\mvacc.c" />
+    <ClCompile Include="..\movstat\qnacc.c" />
+    <ClCompile Include="..\movstat\qqracc.c" />
+    <ClCompile Include="..\movstat\snacc.c" />
+    <ClCompile Include="..\movstat\sumacc.c" />
+    <ClCompile Include="..\rstat\rstat.c" />
+    <ClCompile Include="..\rstat\rquantile.c" />
+    <ClCompile Include="..\statistics\mean.c" />
+    <ClCompile Include="..\statistics\variance.c" />
+    <ClCompile Include="..\statistics\absdev.c" />
+    <ClCompile Include="..\statistics\skew.c" />
+    <ClCompile Include="..\statistics\kurtosis.c" />
+    <ClCompile Include="..\statistics\lag1.c" />
+    <ClCompile Include="..\statistics\p_variance.c" />
+    <ClCompile Include="..\statistics\minmax.c">
+      <ObjectFileName>$(IntDir)/statistics/minmax.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\statistics\ttest.c" />
+    <ClCompile Include="..\statistics\mad.c" />
+    <ClCompile Include="..\statistics\median.c">
+      <ObjectFileName>$(IntDir)/statistics/median.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\statistics\covariance.c" />
+    <ClCompile Include="..\statistics\quantiles.c" />
+    <ClCompile Include="..\statistics\select.c" />
+    <ClCompile Include="..\statistics\Sn.c" />
+    <ClCompile Include="..\statistics\Qn.c" />
+    <ClCompile Include="..\statistics\gastwirth.c" />
+    <ClCompile Include="..\statistics\trmean.c" />
+    <ClCompile Include="..\statistics\wmean.c" />
+    <ClCompile Include="..\statistics\wvariance.c" />
+    <ClCompile Include="..\statistics\wabsdev.c" />
+    <ClCompile Include="..\statistics\wskew.c" />
+    <ClCompile Include="..\statistics\wkurtosis.c" />
+    <ClCompile Include="..\siman\siman.c" />
+    <ClCompile Include="..\sum\levin_u.c" />
+    <ClCompile Include="..\sum\levin_utrunc.c" />
+    <ClCompile Include="..\sum\work_u.c" />
+    <ClCompile Include="..\sum\work_utrunc.c" />
+    <ClCompile Include="..\integration\qk15.c" />
+    <ClCompile Include="..\integration\qk21.c" />
+    <ClCompile Include="..\integration\qk31.c" />
+    <ClCompile Include="..\integration\qk41.c" />
+    <ClCompile Include="..\integration\qk51.c" />
+    <ClCompile Include="..\integration\qk61.c" />
+    <ClCompile Include="..\integration\qk.c" />
+    <ClCompile Include="..\integration\qng.c" />
+    <ClCompile Include="..\integration\qag.c" />
+    <ClCompile Include="..\integration\qags.c" />
+    <ClCompile Include="..\integration\qagp.c" />
+    <ClCompile Include="..\integration\workspace.c" />
+    <ClCompile Include="..\integration\qcheb.c" />
+    <ClCompile Include="..\integration\qawc.c" />
+    <ClCompile Include="..\integration\qmomo.c" />
+    <ClCompile Include="..\integration\qaws.c" />
+    <ClCompile Include="..\integration\qmomof.c" />
+    <ClCompile Include="..\integration\qawo.c" />
+    <ClCompile Include="..\integration\qawf.c" />
+    <ClCompile Include="..\integration\glfixed.c" />
+    <ClCompile Include="..\integration\cquad.c" />
+    <ClCompile Include="..\integration\fixed.c" />
+    <ClCompile Include="..\integration\chebyshev.c" />
+    <ClCompile Include="..\integration\chebyshev2.c" />
+    <ClCompile Include="..\integration\legendre.c" />
+    <ClCompile Include="..\integration\hermite.c">
+      <ObjectFileName>$(IntDir)/integration/hermite.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\integration\laguerre.c">
+      <ObjectFileName>$(IntDir)/integration/laguerre.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\integration\gegenbauer.c">
+      <ObjectFileName>$(IntDir)/integration/gegenbauer.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\integration\jacobi.c">
+      <ObjectFileName>$(IntDir)/integration/jacobi.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\integration\exponential.c">
+      <ObjectFileName>$(IntDir)/integration/exponential.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\integration\rational.c" />
+    <ClCompile Include="..\integration\romberg.c" />
+    <ClCompile Include="..\interpolation\accel.c" />
+    <ClCompile Include="..\interpolation\akima.c" />
+    <ClCompile Include="..\interpolation\cspline.c" />
+    <ClCompile Include="..\interpolation\interp.c" />
+    <ClCompile Include="..\interpolation\linear.c">
+      <ObjectFileName>$(IntDir)/interpolation/linear.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\interpolation\spline.c" />
+    <ClCompile Include="..\interpolation\poly.c" />
+    <ClCompile Include="..\interpolation\steffen.c" />
+    <ClCompile Include="..\interpolation\inline.c">
+      <ObjectFileName>$(IntDir)/interpolation/inline.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\interpolation\interp2d.c" />
+    <ClCompile Include="..\interpolation\bilinear.c" />
+    <ClCompile Include="..\interpolation\bicubic.c" />
+    <ClCompile Include="..\interpolation\spline2d.c" />
+    <ClCompile Include="..\histogram\add.c" />
+    <ClCompile Include="..\histogram\get.c" />
+    <ClCompile Include="..\histogram\init.c">
+      <ObjectFileName>$(IntDir)/histogram/init.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\histogram\params.c" />
+    <ClCompile Include="..\histogram\reset.c" />
+    <ClCompile Include="..\histogram\file.c">
+      <ObjectFileName>$(IntDir)/histogram/file.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\histogram\pdf.c" />
+    <ClCompile Include="..\histogram\add2d.c" />
+    <ClCompile Include="..\histogram\get2d.c" />
+    <ClCompile Include="..\histogram\init2d.c" />
+    <ClCompile Include="..\histogram\params2d.c" />
+    <ClCompile Include="..\histogram\reset2d.c" />
+    <ClCompile Include="..\histogram\file2d.c" />
+    <ClCompile Include="..\histogram\pdf2d.c" />
+    <ClCompile Include="..\histogram\calloc_range.c" />
+    <ClCompile Include="..\histogram\calloc_range2d.c" />
+    <ClCompile Include="..\histogram\copy.c">
+      <ObjectFileName>$(IntDir)/histogram/copy.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\histogram\copy2d.c" />
+    <ClCompile Include="..\histogram\maxval.c" />
+    <ClCompile Include="..\histogram\maxval2d.c" />
+    <ClCompile Include="..\histogram\oper.c">
+      <ObjectFileName>$(IntDir)/histogram/oper.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\histogram\oper2d.c" />
+    <ClCompile Include="..\histogram\stat.c" />
+    <ClCompile Include="..\histogram\stat2d.c" />
+    <ClCompile Include="..\ode-initval\control.c">
+      <ObjectFileName>$(IntDir)/ode-initval/control.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ode-initval\cstd.c">
+      <ObjectFileName>$(IntDir)/ode-initval/cstd.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ode-initval\cscal.c">
+      <ObjectFileName>$(IntDir)/ode-initval/cscal.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ode-initval\evolve.c">
+      <ObjectFileName>$(IntDir)/ode-initval/evolve.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ode-initval\step.c">
+      <ObjectFileName>$(IntDir)/ode-initval/step.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ode-initval\rk2.c">
+      <ObjectFileName>$(IntDir)/ode-initval/rk2.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ode-initval\rk2imp.c">
+      <ObjectFileName>$(IntDir)/ode-initval/rk2imp.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ode-initval\rk2simp.c" />
+    <ClCompile Include="..\ode-initval\rk4.c">
+      <ObjectFileName>$(IntDir)/ode-initval/rk4.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ode-initval\rk4imp.c">
+      <ObjectFileName>$(IntDir)/ode-initval/rk4imp.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ode-initval\rkf45.c">
+      <ObjectFileName>$(IntDir)/ode-initval/rkf45.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ode-initval\rk8pd.c">
+      <ObjectFileName>$(IntDir)/ode-initval/rk8pd.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ode-initval\rkck.c">
+      <ObjectFileName>$(IntDir)/ode-initval/rkck.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ode-initval\bsimp.c">
+      <ObjectFileName>$(IntDir)/ode-initval/bsimp.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ode-initval\gear1.c" />
+    <ClCompile Include="..\ode-initval\gear2.c" />
+    <ClCompile Include="..\ode-initval2\control.c">
+      <ObjectFileName>$(IntDir)/ode-initval2/control.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ode-initval2\cstd.c">
+      <ObjectFileName>$(IntDir)/ode-initval2/cstd.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ode-initval2\cscal.c">
+      <ObjectFileName>$(IntDir)/ode-initval2/cscal.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ode-initval2\evolve.c">
+      <ObjectFileName>$(IntDir)/ode-initval2/evolve.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ode-initval2\step.c">
+      <ObjectFileName>$(IntDir)/ode-initval2/step.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ode-initval2\rk2.c">
+      <ObjectFileName>$(IntDir)/ode-initval2/rk2.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ode-initval2\rk2imp.c">
+      <ObjectFileName>$(IntDir)/ode-initval2/rk2imp.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ode-initval2\rk4.c">
+      <ObjectFileName>$(IntDir)/ode-initval2/rk4.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ode-initval2\rk4imp.c">
+      <ObjectFileName>$(IntDir)/ode-initval2/rk4imp.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ode-initval2\rkf45.c">
+      <ObjectFileName>$(IntDir)/ode-initval2/rkf45.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ode-initval2\rk8pd.c">
+      <ObjectFileName>$(IntDir)/ode-initval2/rk8pd.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ode-initval2\rkck.c">
+      <ObjectFileName>$(IntDir)/ode-initval2/rkck.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ode-initval2\bsimp.c">
+      <ObjectFileName>$(IntDir)/ode-initval2/bsimp.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\ode-initval2\rk1imp.c" />
+    <ClCompile Include="..\ode-initval2\msadams.c" />
+    <ClCompile Include="..\ode-initval2\msbdf.c" />
+    <ClCompile Include="..\ode-initval2\driver.c" />
+    <ClCompile Include="..\roots\bisection.c" />
+    <ClCompile Include="..\roots\brent.c">
+      <ObjectFileName>$(IntDir)/roots/brent.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\roots\falsepos.c" />
+    <ClCompile Include="..\roots\newton.c">
+      <ObjectFileName>$(IntDir)/roots/newton.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\roots\secant.c" />
+    <ClCompile Include="..\roots\steffenson.c" />
+    <ClCompile Include="..\roots\convergence.c">
+      <ObjectFileName>$(IntDir)/roots/convergence.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\roots\fsolver.c">
+      <ObjectFileName>$(IntDir)/roots/fsolver.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\roots\fdfsolver.c">
+      <ObjectFileName>$(IntDir)/roots/fdfsolver.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multiroots\fdjac.c">
+      <ObjectFileName>$(IntDir)/multiroots/fdjac.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multiroots\fsolver.c">
+      <ObjectFileName>$(IntDir)/multiroots/fsolver.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multiroots\fdfsolver.c">
+      <ObjectFileName>$(IntDir)/multiroots/fdfsolver.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multiroots\convergence.c">
+      <ObjectFileName>$(IntDir)/multiroots/convergence.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multiroots\newton.c">
+      <ObjectFileName>$(IntDir)/multiroots/newton.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multiroots\gnewton.c" />
+    <ClCompile Include="..\multiroots\dnewton.c" />
+    <ClCompile Include="..\multiroots\broyden.c" />
+    <ClCompile Include="..\multiroots\hybrid.c" />
+    <ClCompile Include="..\multiroots\hybridj.c" />
+    <ClCompile Include="..\min\fsolver.c">
+      <ObjectFileName>$(IntDir)/min/fsolver.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\min\golden.c" />
+    <ClCompile Include="..\min\brent.c">
+      <ObjectFileName>$(IntDir)/min/brent.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\min\convergence.c">
+      <ObjectFileName>$(IntDir)/min/convergence.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\min\bracketing.c" />
+    <ClCompile Include="..\min\quad_golden.c" />
+    <ClCompile Include="..\multimin\fdfminimizer.c" />
+    <ClCompile Include="..\multimin\steepest_descent.c" />
+    <ClCompile Include="..\multimin\conjugate_fr.c" />
+    <ClCompile Include="..\multimin\conjugate_pr.c" />
+    <ClCompile Include="..\multimin\convergence.c">
+      <ObjectFileName>$(IntDir)/multimin/convergence.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multimin\diff.c">
+      <ObjectFileName>$(IntDir)/multimin/diff.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\multimin\vector_bfgs.c" />
+    <ClCompile Include="..\multimin\vector_bfgs2.c" />
+    <ClCompile Include="..\multimin\fminimizer.c" />
+    <ClCompile Include="..\multimin\simplex.c" />
+    <ClCompile Include="..\multimin\simplex2.c" />
+    <ClCompile Include="..\monte\miser.c" />
+    <ClCompile Include="..\monte\plain.c" />
+    <ClCompile Include="..\monte\vegas.c" />
+    <ClCompile Include="..\ntuple\ntuple.c" />
+    <ClCompile Include="..\diff\diff.c">
+      <ObjectFileName>$(IntDir)/diff/diff.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\deriv\deriv.c">
+      <ObjectFileName>$(IntDir)/deriv/deriv.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\cdf\beta.c">
+      <ObjectFileName>$(IntDir)/cdf/beta.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\cdf\betainv.c" />
+    <ClCompile Include="..\cdf\cauchy.c">
+      <ObjectFileName>$(IntDir)/cdf/cauchy.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\cdf\cauchyinv.c" />
+    <ClCompile Include="..\cdf\chisq.c">
+      <ObjectFileName>$(IntDir)/cdf/chisq.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\cdf\chisqinv.c" />
+    <ClCompile Include="..\cdf\exponential.c">
+      <ObjectFileName>$(IntDir)/cdf/exponential.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\cdf\exponentialinv.c" />
+    <ClCompile Include="..\cdf\exppow.c">
+      <ObjectFileName>$(IntDir)/cdf/exppow.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\cdf\fdist.c">
+      <ObjectFileName>$(IntDir)/cdf/fdist.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\cdf\fdistinv.c" />
+    <ClCompile Include="..\cdf\flat.c">
+      <ObjectFileName>$(IntDir)/cdf/flat.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\cdf\flatinv.c" />
+    <ClCompile Include="..\cdf\gamma.c">
+      <ObjectFileName>$(IntDir)/cdf/gamma.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\cdf\gammainv.c" />
+    <ClCompile Include="..\cdf\gauss.c">
+      <ObjectFileName>$(IntDir)/cdf/gauss.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\cdf\gaussinv.c" />
+    <ClCompile Include="..\cdf\gumbel1.c" />
+    <ClCompile Include="..\cdf\gumbel1inv.c" />
+    <ClCompile Include="..\cdf\gumbel2.c" />
+    <ClCompile Include="..\cdf\gumbel2inv.c" />
+    <ClCompile Include="..\cdf\laplace.c">
+      <ObjectFileName>$(IntDir)/cdf/laplace.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\cdf\laplaceinv.c" />
+    <ClCompile Include="..\cdf\logistic.c">
+      <ObjectFileName>$(IntDir)/cdf/logistic.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\cdf\logisticinv.c" />
+    <ClCompile Include="..\cdf\lognormal.c">
+      <ObjectFileName>$(IntDir)/cdf/lognormal.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\cdf\lognormalinv.c" />
+    <ClCompile Include="..\cdf\pareto.c">
+      <ObjectFileName>$(IntDir)/cdf/pareto.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\cdf\paretoinv.c" />
+    <ClCompile Include="..\cdf\rayleigh.c">
+      <ObjectFileName>$(IntDir)/cdf/rayleigh.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\cdf\rayleighinv.c" />
+    <ClCompile Include="..\cdf\tdist.c">
+      <ObjectFileName>$(IntDir)/cdf/tdist.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\cdf\tdistinv.c" />
+    <ClCompile Include="..\cdf\weibull.c">
+      <ObjectFileName>$(IntDir)/cdf/weibull.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\cdf\weibullinv.c" />
+    <ClCompile Include="..\cdf\binomial.c">
+      <ObjectFileName>$(IntDir)/cdf/binomial.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\cdf\poisson.c">
+      <ObjectFileName>$(IntDir)/cdf/poisson.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\cdf\geometric.c">
+      <ObjectFileName>$(IntDir)/cdf/geometric.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\cdf\nbinomial.c">
+      <ObjectFileName>$(IntDir)/cdf/nbinomial.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\cdf\pascal.c">
+      <ObjectFileName>$(IntDir)/cdf/pascal.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\cdf\hypergeometric.c" />
+    <ClCompile Include="..\wavelet\dwt.c" />
+    <ClCompile Include="..\wavelet\wavelet.c" />
+    <ClCompile Include="..\wavelet\bspline.c">
+      <ObjectFileName>$(IntDir)/wavelet/bspline.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\wavelet\daubechies.c" />
+    <ClCompile Include="..\wavelet\haar.c" />
+    <ClCompile Include="..\bspline\bspline.c">
+      <ObjectFileName>$(IntDir)/bspline/bspline.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\bspline\greville.c" />
+    <ClCompile Include="..\spblas\spdgemm.c" />
+    <ClCompile Include="..\spblas\spdgemv.c" />
+    <ClCompile Include="..\spmatrix\compress.c" />
+    <ClCompile Include="..\spmatrix\copy.c">
+      <ObjectFileName>$(IntDir)/spmatrix/copy.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\spmatrix\file.c">
+      <ObjectFileName>$(IntDir)/spmatrix/file.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\spmatrix\getset.c">
+      <ObjectFileName>$(IntDir)/spmatrix/getset.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\spmatrix\init.c">
+      <ObjectFileName>$(IntDir)/spmatrix/init.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\spmatrix\minmax.c">
+      <ObjectFileName>$(IntDir)/spmatrix/minmax.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\spmatrix\oper.c">
+      <ObjectFileName>$(IntDir)/spmatrix/oper.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\spmatrix\prop.c">
+      <ObjectFileName>$(IntDir)/spmatrix/prop.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\spmatrix\util.c" />
+    <ClCompile Include="..\spmatrix\swap.c">
+      <ObjectFileName>$(IntDir)/spmatrix/swap.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="..\splinalg\itersolve.c" />
+    <ClCompile Include="..\splinalg\gmres.c" />
+    <ClCompile Include="..\version.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/mochangming/gsl/build/ZERO_CHECK.vcxproj">
+      <Project>723B1EFB-5E25-3406-9724-BC5383A656F7</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
